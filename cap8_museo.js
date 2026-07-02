@@ -92,8 +92,8 @@ function cap8() {
     p("EL RETO: el peso emocional es f\u00edsico, no solo atmosf\u00e9rico. Cruzar la sala con normalidad requiere esfuerzo real."),
     pEmpty(80),
     cdBox([
-      ["Constituci\u00f3n ST al entrar (o al cruzar cargando algo/alguien)","12","Desventaja en Fuerza y Destreza por 10 min \u2014 esto importa si hay combate inmediatamente despu\u00e9s (no lo hay, pero afecta el ritmo de exploraci\u00f3n)"],
-      ["Percepci\u00f3n para notar que el frasco central tiene una etiqueta diferente","11","La etiqueta dice 'Esp\u00e9cimen: La Vieja Ra\u00edz. Estado: preservado. Nota: llor\u00f3 durante la extracci\u00f3n' \u2014 SOLO aparece esta etiqueta si el grupo us\u00f3 la Opci\u00f3n B en el Pantano (destruyeron el recuerdo). Si usaron la Opci\u00f3n A, el frasco est\u00e1 vac\u00edo con una nota: 'Liberado por decisi\u00f3n externa. Primer caso registrado.'"],
+      ["Constituci\u00f3n ST para apurarse y cruzar la sala sin detenerse","14","Desventaja en Fuerza y Destreza por 10 min \u2014 esto importa si hay combate inmediatamente despu\u00e9s (no lo hay, pero afecta el ritmo de exploraci\u00f3n)"],
+      ["Sabidur\u00eda ST si el grupo se detiene a examinar el frasco central de la Vieja Ra\u00edz","12 (sube a 15 si el grupo us\u00f3 la Opci\u00f3n B en el Pantano \u2014 ver abajo)","Con fallo, el peso del contenido los abruma: Desventaja en su pr\u00f3xima tirada de Sabidur\u00eda. Con \u00e9xito, leen la etiqueta: 'Esp\u00e9cimen: La Vieja Ra\u00edz. Estado: preservado. Nota: llor\u00f3 durante la extracci\u00f3n' \u2014 esto SOLO aparece si el grupo us\u00f3 la Opci\u00f3n A en el Pantano (escuch\u00f3 el recuerdo). Si usaron la Opci\u00f3n B (lo borraron), el frasco est\u00e1 vac\u00edo, con una nota distinta: 'Registro incompleto \u2014 esp\u00e9cimen destruido antes de completar la extracci\u00f3n.' Por eso la CD sube a 15 en ese caso: es m\u00e1s dif\u00edcil interpretar un vac\u00edo que una presencia."],
     ]),
     pEmpty(80),
 
@@ -197,7 +197,7 @@ function cap8() {
     pEmpty(80),
 
     h3("Si Desbloquearon a la Reina Espina — El Eco Mayor (Opcional, Mucho Más Difícil)"),
-    p("Esto NO es una penalización para quien no llegó a esto — es un premio de magnitud real para quien sí lo hizo. Si el grupo consiguió audiencia con la Reina Espina (sección 7.x) Y, además, demostró respeto genuino más allá del trámite del acertijo (a tu criterio), ella puede intervenir en este combate."),
+    p("Esto NO es una penalización para quien no llegó a esto — es un premio de magnitud real para quien sí lo hizo. Si el grupo consiguió audiencia con la Reina Espina (sección 7.8) Y, además, demostró respeto genuino más allá del trámite del acertijo (a tu criterio), ella puede intervenir en este combate."),
     pEmpty(80),
     warningBox("ELLA ES NIVEL 20 — ESTO CAMBIA TODO EL COMBATE, A PROPÓSITO: una entidad de ese calibre no se involucra en algo menor. Si la Reina Espina interviene, el Eco que el grupo enfrenta NO es el mismo Eco del Archivo de la sección 8.12 — es una versión mucho más grande y peligrosa (ficha completa: 'El Eco Mayor', sección 8.12bis), porque solo una amenaza a esa altura justificaría que alguien de su poder se moleste en aparecer. Sin su ayuda, el grupo NO debería poder vencer al Eco Mayor — está diseñado para ser, genuinamente, imposible sin ella. Si tu grupo NO desbloqueó a la Reina Espina, ignorá esta sección por completo: enfrentan al Eco del Archivo estándar de la sección 8.12, sin cambios, sin penalización alguna por no haberla conseguido."),
     pEmpty(80),
