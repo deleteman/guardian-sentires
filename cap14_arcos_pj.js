@@ -368,11 +368,17 @@ function cap14() {
       ["1 — La Galería de Entrada","El primer nivel de la mina, al que los Cenicilla todavía pueden acceder. Herramientas abandonadas, marcas de trabajo reciente interrumpido abruptamente. Mira puede acompañar al grupo hasta aquí.","4 Zombis de minero (CR 1/4 c/u) — los más recientes, los que murieron intentando limpiar las sombras en los últimos meses. No son del Gran Derrumbe — son víctimas nuevas. Más fáciles de tratar como no-muertos normales.","En una pared, alguien grabó con una clavija de hierro: 'No entren solos al Pasaje Viejo'. Abajo, con otra letra y otra mano: 'Ya es tarde para ese consejo'."],
       ["2 — El Pasaje Viejo","El pasaje que Mira mandó abrir. Paredes con marcas de herramienta antiguas, distintas de las modernas — estas son del 1347. Aquí el aire se siente diferente: más frío, más quieto, como si el sonido viajara mal.","2 Umber Hulks (CR 5 c/u) — no son no-muertos, son criaturas que entraron por los túneles superiores atraídas por la energía de las sombras. El problema práctico inmediato que impide avanzar. Las notas de Mira describen exactamente dónde están (si el grupo las consiguió).","La pared del fondo del Pasaje tiene once marcas de mano grabadas en la piedra — once mineros que supieron que iban a morir y dejaron su huella. Angelus reconoce el patrón: es instintivo en alguien que pasó tiempo con los muertos."],
       ["3 — La Sala del Derrumbe","La cámara donde ocurrió el Gran Derrumbe del 1347. Todavía hay restos bajo las rocas — los Cenicilla nunca pudieron recuperarlos. Las paredes tienen sombras que se mueven aunque no haya luz que las cause.","3 Specters (CR 1 c/u) — los mineros del Gran Derrumbe que no llegaron a irse del todo. Son frágiles pero corrosivos: su toque drena la fuerza vital. Angelus puede intentar hablarles antes de combatir (Persuasión CD 14, con su símbolo de la Raven Queen como foco).","Si Angelus los convence de que su muerte fue real y que pueden irse, los Specters se disuelven sin combate. Si combaten, al caer cada uno dice una sola frase — su último pensamiento del 1347, congelado — antes de desvanecerse. Guardá esas frases para el momento de la Sombra Anclada."],
-      ["4 — La Cámara del Ancla","El punto más profundo, donde el derrumbe fue peor y donde la energía de los once muertos se concentró. Una sola criatura, más grande y más vieja que los Specters, hecha no del dolor de uno sino del dolor de todos.","LA SOMBRA ANCLADA (CR 5, 78 PG). Ver ficha abajo.","El 'ancla' física es una viga de madera carbonizada del 1347, todavía en pie de milagro — la última que no cayó. Destruirla (CA 15, 20 PG) o nombrar en voz alta la 'certeza' de los once muertos (ver mecánica) libera a la Sombra Anclada y cierra el círculo."],
+      ["4 — La Cámara del Ancla","El punto más profundo, donde el derrumbe fue peor y donde la energía de los once muertos se concentró. Ahí, una Sombra de Duda (la misma especie del enemigo de viaje, sección 3.4) se quedó — y con generaciones de dolor sin resolver, echó raíces en la piedra misma.","LA SOMBRA ANCLADA (CR 5, 78 PG) — Sombra de Duda Anclada. Ver ficha abajo.","El 'ancla' física es doble: una viga de madera carbonizada del 1347, todavía en pie de milagro, y las vetas minerales oscurecidas que la rodean, donde la Sombra se filtró con los años. Destruir la viga Y purificar las vetas (ver ficha) o nombrar en voz alta la 'certeza' de los once muertos (ver mecánica) libera a la Sombra Anclada y cierra el círculo."],
     ], 1800, 2400, 2600, 2560),
     pEmpty(80),
 
     h3("La Sombra Anclada — Ficha"),
+    p("Es una Sombra de Duda (misma especie que el enemigo de viaje de la sección 3.4) — pero esta nunca se fue. Se quedó, y con los años, echó raíces."),
+    pEmpty(80),
+    voiceBox("\"No tiene la silueta borrosa y errante de sus hermanas del camino. Esta está fija: un núcleo de niebla gris oscura que se filtra entre las vetas minerales de la pared, como si la roca misma sudara sombra. Donde toca la piedra, el mineral se oscurece — no se rompe, se apaga, como una brasa que perdió el color. Cuando se mueve, no camina: la niebla avanza por las vetas ya oscurecidas, salta de una a otra, y solo al final se condensa frente a quien la mira en algo casi humanoide, casi reconocible — cada quien ve una cara distinta en ella, igual que con las Sombras del camino. Pero esta no pregunta. Esta espera.\""),
+    pEmpty(80),
+    secretBox("CONTINUIDAD CON LA SECCIÓN 3.4 — POR QUÉ ESTO IMPORTA: las Sombras de Duda del camino son el argumento de Mnemós hecho criatura — ideas que aprendieron a moverse (ver el secretBox de 'La Sombra que Pregunta', sección 3.4). Esta es la prueba de que también pueden aprender a quedarse: cuando una duda encuentra suficiente dolor acumulado en un mismo lugar —once mineros, sin nombre, sin cierre, durante generaciones— deja de necesitar buscar víctimas nuevas. Se ancla. Las vetas minerales de Karak Dûm no crearon a la Sombra Anclada: la alimentaron, con el mismo yacimiento donde ocurrió el Gran Derrumbe. Si tu mesa ya conoció a La Sombra que Pregunta, podés hacer el callback explícito acá: misma voz, mismo tipo de pregunta sin responder — solo que esta vez la pregunta se quedó tanto tiempo que dejó de ser pregunta y se volvió ancla."),
+    pEmpty(140),
     infoTable([
       ["Estadística","Valor"],
       ["CR / PG","CR 5 / 78 PG"],
@@ -385,8 +391,8 @@ function cap14() {
     pEmpty(60),
     infoTable([
       ["Acción / Rasgo","Efecto"],
-      ["Multiataque","2 toques de oscuridad: +5 al impacto, 2d6+2 necrótico cada uno"],
-      ["Anclada al Dolor (rasgo)","Al inicio de cada turno de la Sombra Anclada, si la viga de madera del 1347 sigue en pie, recupera 5 PG. Destruir la viga cancela este rasgo permanentemente"],
+      ["Multiataque","2 Toques de Duda Concentrados (misma herencia que las Sombras del camino, sección 3.4): +5 al impacto, 2d6+2 psíquico cada uno. Si impacta, el objetivo tiene Desventaja en su próxima tirada de salvación de Sabiduría"],
+      ["Anclada al Dolor (rasgo)","Al inicio de cada turno de la Sombra Anclada, si la viga de madera del 1347 y las vetas minerales oscurecidas que la rodean siguen intactas, recupera 5 PG. Destruir la viga (CA 15, 20 PG) O purificar las vetas (Herramientas de Minero, acción, CD 15) cancela este rasgo permanentemente"],
       ["Ecos del 1347 (acción, recarga 5-6)","Un personaje aleatorio hace Sabiduría CD 14 o revive, durante 1 round, una visión del Gran Derrumbe: queda Aturdido hasta el final de su próximo turno (la visión lo paraliza). No hace daño adicional"],
       ["Nombrar la Certeza (mecánica especial)","Si alguien nombra en voz alta, con convicción genuina, lo que los once mineros SÍ tuvieron — no lo que perdieron, sino lo que fue real: su trabajo, sus manos, el tiempo que vivieron — la Sombra pierde su Resistencia a daño no mágico por 3 rondas. Si se hace dos veces en el mismo combate, la Sombra se disuelve sin llegar a 0 PG (la ancla se rompe narrativamente). No hay tirada — solo decisión del jugador de decirlo en voz alta."],
     ], 2800, 6560),
@@ -406,6 +412,9 @@ function cap14() {
     p("Inspirado en el dilema de Vax/Vex con la Nightsong Stone (Critical Role, Campaña 4, episodio 30): un momento donde el poder acumulado del grupo es suficiente para resolver un dolor personal y profundo de UN solo personaje — pero usarlo tiene un costo real sobre Chromatus y sobre la historia, y solo uno de los tres puede intentarlo."),
     pEmpty(80),
     warningBox("CUÁNDO OCURRE: justo al reunir la 3ª escama (sin importar el orden). Nivel del grupo: aproximadamente 9, en la transición de Hotenow al Bosque."),
+    pEmpty(140),
+
+    h2("14.4 El Momento de las Tres Tentaciones (al reunir la 3ª Escama)"),
     pEmpty(80),
 
     h3("14.4.1 — Por Qué Solo Uno Puede Actuar, y Qué le Pasa a las Escamas"),
