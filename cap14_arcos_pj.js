@@ -178,15 +178,24 @@ function cap14() {
     voiceBox("\"Antes de que Angelus se vaya, el abuelo lo detiene con una mano temblorosa. 'Una cosa más. Cuando salí, no traje nada — no hubo tiempo. Pero sé dónde quedó el bastón de mi esposa. Ella lo talló con sus propias manos, mucho antes de todo esto. No es un objeto mágico ni nada que valga dinero. Pero es lo único de ella que podría quedar en este mundo, y yo ya no tengo piernas para ir a buscarlo.' Describe el lugar: un pueblo, en el límite físico donde el gris se filtró hace años sin llegar a tragárselo del todo — no el plano en sí, sino su cicatriz en este lado.\""),
     pEmpty(140),
 
-    h3("14.2.5 — Parte 1: Dungeon — El Filo del Gris"),
-    p("Un pueblo abandonado en la frontera física donde el Plano Gris se filtró generaciones atrás, sin llegar a abrirse del todo — niebla baja persistente, vegetación descolorida, un silencio que no es total pero incomoda. NO es el Plano Gris: es su cicatriz en el mundo material, y por eso es seguro explorarlo sin reabrir nada."),
+    h3("14.2.5 — Parte 1: Buscar la Casa del Abuelo"),
+    p("No es un dungeon ni hay enemigos acá — es una búsqueda tranquila con una sola pregunta real: ¿pueden encontrar la casa correcta, y qué queda de ella? El pueblo está en la frontera física donde el Plano Gris se filtró generaciones atrás, sin llegar a abrirse del todo: niebla baja persistente, vegetación descolorida, un silencio que incomoda pero no ahoga. NO es el Plano Gris — es su cicatriz en el mundo material, y por eso es seguro explorarlo sin reabrir nada."),
     pEmpty(80),
-    infoTable([
-      ["Área","Qué hay","Encuentro"],
-      ["1 — El Umbral del Pueblo","La entrada, casas descoloridas pero intactas. El aire se siente más liviano de lo que debería, como si algo se hubiera llevado su peso natural.","2 Sombras de Duda (CR 1/2 c/u, sección 3.4) — atraídas por la energía residual, iguales a las del camino. Debilidad a la luz de antorcha ya establecida"],
-      ["2 — La Plaza Descolorida","Todas las casas se ven idénticas bajo el gris residual — hay que encontrar la correcta entre decenas iguales.","Sin combate. Percepción o Supervivencia CD 13 para notar el detalle correcto (una veleta con una forma particular que el abuelo describió). Fallo: pierden tiempo pero pueden reintentar"],
-      ["3 — La Casa Vacía","La casa del abuelo, casi intacta. El bastón está apoyado contra una pared, cubierto de polvo gris que no es polvo normal.","1 Sombra de Duda más fuerte (CR 1, versión única) que se materializa al tocar el bastón — no ataca de inmediato, solo pregunta (en el mismo estilo que 'La Sombra que Pregunta', sección 3.4): '¿Por qué buscar lo que ya se perdió?' Combatirla o responderle son ambas válidas; desaparece igual en cualquier caso"],
-    ], 2000, 4200, 3360),
+    voiceBox("\"Las casas se repiten, una tras otra, todas del mismo gris apagado, todas con la misma puerta entreabierta como si sus dueños fueran a volver en cualquier momento. No hay ruinas, no hay destrucción — todo está exactamente donde quedó, solo descolorido, como una pintura que perdió el sol. El silencio no es total: el viento mueve postigos sueltos, en algún lado, con un ritmo que no termina de sonar natural.\""),
+    pEmpty(80),
+    cdBox([
+      ["Percepción o Supervivencia para reconocer la veleta que describió el abuelo","13","Fallo: recorren varias casas idénticas antes de dar con la correcta — pierden tiempo, sin ninguna otra consecuencia. Pueden reintentar cuantas veces haga falta"],
+    ]),
+    pEmpty(140),
+
+    h3("La Casa Vacía"),
+    voiceBox("\"Adentro, todo sigue como si el tiempo se hubiera detenido a mitad de un día cualquiera. Una mesa puesta para dos, con platos que nunca se retiraron. Una mecedora frente a una chimenea apagada hace generaciones, con un chal todavía colgado del respaldo, deshaciéndose de a hilos. En un jarrón, flores secas que alguna vez fueron de color — ahora son solo forma, sin color que las sostenga. El polvo es espeso pero no violento: nadie entró a romper nada. Solo el tiempo, quedándose.\""),
+    pEmpty(80),
+    p("El bastón no está a la vista de inmediato — el abuelo recordaba mal, o la casa cambió más de lo que pensaba."),
+    pEmpty(60),
+    cdBox([
+      ["Percepción o Investigación para encontrar el bastón","14","Con éxito, lo encuentran enseguida, apoyado en un rincón, casi exactamente donde el abuelo dijo. Con fallo, tarda más — revisan toda la casa antes de encontrarlo medio escondido bajo una manta que se deshace al tocarla — pero además encuentran, sin buscarla, una carta sin enviar, dirigida a nadie en particular, que el abuelo nunca contó que existía (gancho opcional de roleplay, contenido a elección del DM)"],
+    ]),
     pEmpty(80),
     secretBox("EL BASTÓN NO ES MÁGICO — Y ESTÁ BIEN ASÍ: no todo objeto recuperado necesita una propiedad mecánica. Su valor es completamente emocional. Si tu mesa quiere algo mecánico igual, lo más simple: mientras Angelus lo lleve encima (guardado, no como arma), una vez por descanso largo puede tocarlo antes de un ritual o plegaria para tener Ventaja en esa tirada — un pequeño consuelo, no un arma."),
     pEmpty(80),
@@ -194,14 +203,40 @@ function cap14() {
     pEmpty(140),
 
     h3("14.2.6 — Parte 2: Dungeon — La Cripta sin Nombres"),
-    p("El abuelo, agradecido, menciona algo más: una cripta vieja cerca del pueblo, muertos sin nombre y sin descendencia que nadie visita hace generaciones, con quejidos que a veces se escuchan de noche. No está conectada con el Plano Gris — es un problema propio, mundano, del tipo que un Clérigo de la Muerte puede resolver de verdad."),
+    p("El abuelo, agradecido, menciona algo más: una cripta vieja cerca del pueblo, muertos sin nombre y sin descendencia que nadie visita hace generaciones, con quejidos que a veces se escuchan de noche. No está conectada con el Plano Gris — es un problema propio, mundano, del tipo que un Clérigo de la Muerte puede resolver de verdad. A diferencia de la Parte 1, esto SÍ es un dungeon con combate real."),
     pEmpty(80),
-    infoTable([
-      ["Área","Qué hay","Encuentro"],
-      ["1 — El Corredor de Entrada","Nichos vacíos y otros no tanto. Polvo de generaciones, sin profanar hasta ahora.","3 Esqueletos (CR 1/4 c/u) — no maliciosos, solo errantes, reaccionando al movimiento más que a una voluntad propia"],
-      ["2 — La Cámara de los Olvidados","Restos de quienes murieron sin familia que los reclamara — el mismo tipo de historia que el brazalete sin reclamar de Dax (sección 9.1).","2 Espectros menores (CR 1/2 c/u) — pueden combatirse, o Angelus puede intentar hablarles primero (Religión o Persuasión CD 13, con su símbolo sagrado como foco): si tiene éxito, se disuelven en paz sin pelear"],
-      ["3 — La Cámara Central","Un altar simple, sin dedicar a ningún dios en particular — quien lo construyó no llegó a decidir a quién rezarle.","Sin combate. Aquí Angelus oficia el rito (ver abajo)"],
-    ], 2400, 4400, 2760),
+
+    h3("Área 1 — El Corredor de Entrada"),
+    voiceBox("\"La entrada es un corredor angosto tallado directamente en la roca, con nichos a ambos lados — la mayoría vacíos hace mucho, un puñado todavía con huesos que nadie vino a reclamar. El aire es frío de una forma que no tiene que ver con la temperatura. A mitad de camino, sin ruido de aviso, tres siluetas se incorporan desde el piso: esqueletos que no atacan con furia, sino con la persistencia lenta y sin voluntad propia de algo que reacciona al movimiento, no a la presencia.\""),
+    pEmpty(80),
+    cdBox([
+      ["Combate — 3 Esqueletos (CR 1/4 c/u)","—","Estadísticas estándar de Manual de Monstruos. No emboscan: se incorporan apenas el grupo pasa la mitad del corredor, dando una ronda de aviso antes de atacar"],
+      ["Alternativa — Angelus expulsa no-muertos (si tiene el rasgo de Clérigo disponible a su nivel)","—","Los 3 Esqueletos se desmoronan sin pelear — una victoria limpia y temática, coherente con su clase"],
+    ]),
+    pEmpty(140),
+
+    h3("Área 2 — La Grieta del Piso"),
+    p("Un tramo de piso colapsado hace años, con escombro suelto entre el corredor y la siguiente cámara. No es un enemigo — es un obstáculo físico."),
+    pEmpty(60),
+    cdBox([
+      ["Destreza (Acrobacias) para cruzar sin caer","12","Fallo: cae parcialmente en la grieta, 1d6 contundente, y debe trepar de vuelta (pierde el turno, sin peligro real de quedar atrapado)"],
+    ]),
+    pEmpty(140),
+
+    h3("Área 3 — La Cámara de los Olvidados"),
+    voiceBox("\"Esta cámara es distinta: hay estantes, no solo nichos, cada uno con un objeto personal — un peine, un dedal, un juguete de madera gastado. Nadie vino jamás a llevarse nada, porque nadie quedó para reclamarlo. El mismo tipo de historia que el brazalete sin reclamar de Dax (sección 9.1). Dos siluetas se materializan entre los estantes, sobresaltadas, como si no esperaran visitas después de tanto tiempo.\""),
+    pEmpty(80),
+    cdBox([
+      ["Religión o Persuasión para hablarles antes de combatir (símbolo sagrado como foco)","13","Con éxito, los 2 Espectros menores (CR 1/2 c/u) se disuelven en paz, sin pelear. Con fallo (o si el grupo prefiere combatir directamente), combate normal — son frágiles, más tristes que peligrosos"],
+    ]),
+    pEmpty(80),
+    noteBox("LOOT DE LA CÁMARA","Entre los objetos de los estantes, uno se puede llevar sin culpa: un guardapelo vacío, sin retrato ni mechón — perteneció a alguien que nadie recuerda ya. Sin valor mecánico, pura textura temática (o 50 po si tu mesa prefiere loot material).","FFF8E7",C.goldDeep),
+    pEmpty(140),
+
+    h3("Área 4 — La Cámara Central"),
+    voiceBox("\"El corredor se abre a una cámara redonda, más silenciosa que las anteriores. En el centro, un altar simple, sin dedicar a ningún dios en particular — quien lo construyó no llegó a decidir a quién rezarle, o quizás nunca hizo falta decidirlo.\""),
+    pEmpty(80),
+    p("Sin combate. Aquí Angelus oficia el rito (ver abajo)."),
     pEmpty(80),
     voiceBox("\"Angelus enciende el altar con lo poco que tiene — una vela, quizás, o solo su símbolo sagrado en alto — y dice en voz alta los nombres que sí conoce (los del abuelo, los suyos propios, cualquiera que la mesa quiera nombrar), y después, con la misma seriedad, dice: 'Y por los que no tienen nombre que yo pueda decir: también los recuerdo.' El aire de la cripta cambia — no dramáticamente, pero cambia.\""),
     pEmpty(80),
@@ -211,16 +246,27 @@ function cap14() {
     pEmpty(140),
 
     h3("14.2.7 — Parte 3: Las Visiones de la Raven Queen (PARA MESA)"),
-    p("2-3 visiones fragmentarias para repartir a lo largo de la campaña, idealmente una después de cada dungeon (Partes 1 y 2). Son simbólicas, nunca explicaciones directas."),
+    p("Tres visiones fragmentarias para repartir a lo largo de la campaña, una después de la Parte 1, otra después del dungeon de la Parte 2, y una de cierre opcional. Son simbólicas, nunca explicaciones directas — Angelus las recibe dormido, y se despierta sin poder explicarlas del todo."),
     pEmpty(80),
     secretBox("POR QUÉ A LA RAVEN QUEEN LE IMPORTA: el Plano Gris es una herida en su propio dominio — un lugar donde la muerte se rompió y dejó de funcionar. Para ella, eso es un insulto directo a lo que sostiene."),
+    pEmpty(140),
+
+    h3("Visión 1 — El Cuervo que no Puede Posarse (después de la Parte 1)"),
+    voiceBox("\"Angelus sueña con un cielo sin color, parecido al del día del colapso pero sin la gente caminando. Un solo cuervo vuela en círculos sobre una rama gris y quieta, e intenta posarse una y otra vez — sus garras rozan la madera y resbalan, como si la rama no terminara de estar ahí del todo. El cuervo no se cansa, no se rinde, simplemente lo vuelve a intentar, una vez, y otra, y otra. Angelus se despierta antes de ver si lo logra, con la sensación clara de que 'algo no terminó bien, en algún lugar, hace mucho tiempo' — y que todavía no termina.\""),
     pEmpty(80),
-    infoTable([
-      ["Visión","Cuándo enviarla","Contenido simbólico"],
-      ["1 — El Cuervo que no Puede Posarse","Después de El Filo del Gris (Parte 1)","Angelus sueña con un cuervo que intenta posarse sobre una rama gris, una y otra vez, sin lograrlo. Se despierta con la sensación de que 'algo no terminó bien, en algún lugar, hace mucho tiempo'"],
-      ["2 — La Balanza Detenida","Después de La Cripta sin Nombres (Parte 2)","Una balanza de huesos: un plato sube y baja con normalidad, el otro completamente quieto, oxidado. Una voz dice: 'Alguien tocó lo que no debía. Y dejó la balanza así. Vos, en cambio, devolviste paz donde nadie la pedía. Eso también lo siento.'"],
-      ["3 (opcional, para cierre o puente al clímax)","Cuando la mesa decida cerrar o pausar el arco","La Raven Queen le muestra a Angelus, brevemente, una imagen de Mnemós (sin nombrarlo) como contraste: 'Este busca corregir el dolor borrándolo. Aquello que rompió tu plano buscaba algo distinto, y peor: jugar con el final mismo. No son la misma herida. Pero ambas son heridas que yo siento.'"],
-    ], 2400, 2800, 4360),
+    secretBox("QUÉ SIGNIFICA (PARA VOS, DM): el cuervo es la propia Raven Queen, o una extensión de su atención — no puede posarse del todo en el Plano Gris porque ahí la muerte no funciona como debería, y ella no tiene dominio real sobre un lugar que rompe sus propias reglas. Es su forma de decirle a Angelus, sin palabras, que el problema le importa genuinamente, no solo como curiosidad."),
+    pEmpty(140),
+
+    h3("Visión 2 — La Balanza Detenida (después de la Parte 2)"),
+    voiceBox("\"Una balanza enorme, hecha de huesos pulidos, ocupa el centro del sueño. Un plato sube y baja con un ritmo tranquilo, natural. El otro está completamente quieto, cubierto de óxido, como si llevara siglos sin moverse. Una voz — no exactamente la de la Raven Queen, algo más antiguo, hablando a través de ella — dice: 'Alguien tocó lo que no debía. Y dejó la balanza así.' Angelus mira el plato oxidado, y por un instante lo ve moverse, apenas, un centímetro, antes de quedar quieto otra vez. La misma voz, ahora más cerca de la Raven Queen: 'Vos, en cambio, devolviste paz donde nadie la pedía. Eso también lo siento. No arregla la balanza. Pero lo siento.'\""),
+    pEmpty(80),
+    secretBox("QUÉ SIGNIFICA: la balanza detenida ES el Plano Gris — un lugar donde el equilibrio natural de la muerte se rompió y no se cura solo. El pequeño movimiento que Angelus ve (el plato moviéndose un centímetro) es una señal directa de que lo que hizo en La Cripta sin Nombres SÍ tuvo efecto en algo más grande de lo que él imagina — sin explicar del todo qué ni cuánto. Dejalo ambiguo: es una recompensa emocional, no una pista mecánica."),
+    pEmpty(140),
+
+    h3("Visión 3 — El Contraste (opcional, para cierre o puente al clímax)"),
+    voiceBox("\"La última visión es distinta a las demás — no hay símbolos esta vez, hay una imagen casi directa: un hombre sentado a una mesa, con libros y frascos alrededor, sin nombre ni rostro claro (Angelus no puede describirlo después, por más que lo intente). La Raven Queen no lo señala como enemigo ni como nada en particular. Solo dice: 'Este busca corregir el dolor borrándolo. Aquello que rompió tu plano buscaba algo distinto, y peor: jugar con el final mismo. No son la misma herida. Pero ambas son heridas que yo siento.'\""),
+    pEmpty(80),
+    secretBox("CUÁNDO USARLA Y QUÉ NO HACER: usala cuando la mesa decida cerrar o pausar el arco, idealmente cerca de cuando el nombre 'Mnemós' ya se conoce (después de Hotenow, sección 6.7) pero SIN nombrarlo acá tampoco — la imagen es deliberadamente borrosa. Esto NO es una pista hacia la identidad de Mnemós ni de Ozyr: es una confirmación emocional de que el dolor de Angelus y el conflicto central de la campaña están relacionados temáticamente, sin estar conectados en la trama. No fuerces la conexión más allá de esta única frase."),
     pEmpty(140),
 
     h3("14.2.8 — Parte 4: Cierre — La Vigilia que Continúa"),
@@ -228,7 +274,7 @@ function cap14() {
     pEmpty(80),
     voiceBox("\"Cuando llega la noticia, no es una sorpresa — era de esperar, y de alguna forma eso ayuda. La familia de vendedores le cuenta a Angelus que, en sus últimos días, el abuelo volvió a tener el bastón cerca todo el tiempo, y que habló, más de una vez, de 'el chico que sigue la vigilia'. Nadie tiene que explicarle a Angelus qué quiso decir con eso.\""),
     pEmpty(80),
-    noteBox("RECOMPENSA — GUARDIA DE LA REINA CUERVO, ETAPA 3 (completa)","El vínculo llega a su forma final: la frecuencia mejora de 1/descanso largo a 1/descanso CORTO. Ambos usos (Ventaja en salvación de muerte para un aliado, o Desventaja impuesta a un enemigo) siguen disponibles, elegidos en el momento según quién cayó.","FFF8E7",C.goldDeep),
+    noteBox("RECOMPENSA — GUARDIA DE LA REINA CUERVO, ETAPA 3 (completa)","El vínculo llega a su forma final: deja de necesitar descanso para recargarse. Se vuelve una reacción normal, disponible siempre que la condición se cumpla (una criatura a 9 m cae a 0 PG), sin límite de usos por descanso. Ambos efectos (Ventaja en salvación de muerte para un aliado, o Desventaja impuesta a un enemigo) siguen disponibles, elegidos en el momento según quién cayó.","FFF8E7",C.goldDeep),
     pageBreak(),
 
     // ============ GREYSKULL ============
