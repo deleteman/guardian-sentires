@@ -63,23 +63,7 @@ function cap10() {
     ]),
     pEmpty(140),
 
-    h2("10.5 Cronolog\u00eda de Sesiones"),
-    infoTable([
-      ["Sesiones","Contenido","Nivel"],
-      ["1\u20133","Acto I: Phandalin, gancho, Chromatus, Logos, primera navegaci\u00f3n","5"],
-      ["4\u20136","Escama Amarilla: Cuerda-Floja, Barnaby, ritual, primera pista del Coleccionista","5\u21926"],
-      ["7\u201310","Escama Azul: Pantano de los Muertos, la Vieja Ra\u00edz, decisi\u00f3n moral del esp\u00edritu","6\u21927"],
-      ["11\u201312","Misi\u00f3n secundaria: Taller del Recuerdo en Neverwinter. Descubrir a Vex","7"],
-      ["13\u201316","Escama Roja: Monte Hotenow, Korrund, decisi\u00f3n del recuerdo del Gigante. Se revela 'Mnem\u00f3s'","7\u21929"],
-      ["17\u201318","Misi\u00f3n secundaria: Los Sin-Color. Decisi\u00f3n de c\u00f3mo manejarlos","9"],
-      ["19\u201322","Escama Verde: Bosque de Neverwinter, Sylveth, la Madre Ra\u00edz, el mecanismo, Plano de las Hadas","9\u219211"],
-      ["23\u201324","Investigaci\u00f3n: deducir c\u00f3mo abrir el portal del Archivo (secci\u00f3n 8.1)","11"],
-      ["25\u201327","Acto III: El Archivo, las 5 salas, los miedos, la conversaci\u00f3n con Mnem\u00f3s","11\u219212"],
-      ["28\u201330+","Resoluci\u00f3n seg\u00fan final elegido. Ep\u00edlogos de cada NPC","12\u219213"],
-    ], 1600, 5760, 2000),
-    pEmpty(140),
-
-    h2("10.6 Notas de Diseño — Lo Invisible"),
+    h2("10.5 Notas de Diseño — Lo Invisible"),
     secretBox("Esta campaña trabaja la expresión emocional de forma lateral. El diseño garantiza que el tema nunca se declare. En su lugar: personajes que necesitan ser escuchados para que el mundo avance; momentos donde nombrar algo tiene efecto mecánico real; un villano cuya lógica es comprensible; y Logos, que aprende a sentir siendo observador. Si el jugador más chico (Angelus, 11) conecta con alguno de esos hilos, genial. Si no, igual tiene una campaña excelente con mucha acción y loot."),
     pEmpty(80),
     infoTable([
@@ -91,11 +75,11 @@ function cap10() {
     ]),
     pEmpty(140),
 
-    h2("10.7 Nota sobre Aliados de Alto Poder"),
+    h2("10.6 Nota sobre Aliados de Alto Poder"),
     warningBox("Recordatorio de balance: el golem de Hola y la quimera montura de Greyskull est\u00e1n incluidos en el c\u00e1lculo de dificultad de todos los combates de este documento. Si en una sesi\u00f3n espec\u00edfica estos aliados no pueden participar (espacio reducido, separados del grupo, etc.), ajustar el encuentro bajando el CR en 1-2 puntos o a\u00f1adiendo una ronda de ventaja inicial a la party para compensar."),
     pEmpty(140),
 
-    h2("10.8 Relojes Narrativos — Resumen de Consecuencias por Demora"),
+    h2("10.7 Relojes Narrativos — Resumen de Consecuencias por Demora"),
     p("Tabla de referencia rápida de todos los relojes narrativos de la campaña. Ventana ajustada: 2-3 ZONAS COMPLETAS de demora para activarse — no sesiones, no días de exploración dentro de la misma zona. Ningún reloj se anuncia a la mesa — la consecuencia, si ocurre, debe sentirse genuina y no telegrafiada."),
     pEmpty(80),
     warningBox("LO QUE NUNCA CUENTA COMO DEMORA: explorar a fondo la zona donde está el reloj, hablar con NPCs de esa zona, completar misiones secundarias ahí mismo, o tomar descansos narrativos normales. El reloj solo avanza si el grupo ignora o abandona la situación durante el tiempo equivalente a VARIAS zonas completas sin volver."),
@@ -111,7 +95,7 @@ function cap10() {
     secretBox("Si tu mesa quiere más de estos relojes, el patrón es replicable para cualquier NPC con una situación en curso — la clave es que la consecuencia afecte algo que el grupo ya valora (un aliado, un acceso, una fuente de información) sin castigar la exploración legítima."),
     pEmpty(140),
 
-    h2("10.9 Espacio para Notas del DM"),
+    h2("10.8 Espacio para Notas del DM"),
     noteBox("SESIÓN ACTUAL", "[ Número de sesión, escama activa, nivel del grupo, estado de Logos, decisiones tomadas que afectan el clímax ]", "FAFAFA", C.grayMid),
     pEmpty(80),
     noteBox("DECISIONES MORALES TOMADAS", "[ Opción A/B/C en cada zona, consecuencias pendientes ]", "FAFAFA", C.grayMid),
@@ -119,7 +103,7 @@ function cap10() {
     noteBox("ESTADO DE LOGOS", "[ Preguntas que ya hizo, cómo lo trató el grupo, qué hará en el clímax ]", "FAFAFA", C.grayMid),
     pEmpty(140),
 
-    h2("10.10 Cuando la Party se Descarrila Totalmente"),
+    h2("10.9 Cuando la Party se Descarrila Totalmente"),
     p("Esta sección es distinta de los relojes narrativos (10.8), que cubren demoras DENTRO del camino esperado. Esto es para cuando el grupo se sale del mapa por completo: ignoran a Logos, se van en otra dirección, deciden quedarse indefinidamente en un lugar sin avanzar, o hacen algo que este documento nunca contempló. Con dos jugadores chicos en la mesa, esto va a pasar — es normal y está bien. Acá tenés herramientas genéricas, no parches puntuales, para cualquier desvío real."),
     pEmpty(80),
 
@@ -168,7 +152,7 @@ function cap10() {
     secretBox("La regla de fondo en todos los casos: tus hijos disfrutando la sesión siempre es más importante que seguir el documento. El documento es una herramienta al servicio de la mesa, no al revés."),
     pEmpty(140),
 
-    h2("10.11 Momentos de Fogata — Pausas Cortas entre Zonas"),
+    h2("10.10 Momentos de Fogata — Pausas Cortas entre Zonas"),
     p("Cuatro preguntas breves, una después de cada escama elemental, pensadas para mesas donde el roleplay extenso todavía no es cómodo. No son ejercicios de actuación — responder en una sola frase está perfectamente bien, y nadie está obligado a profundizar. La meta es la pausa y la conexión entre sesiones, no la performance."),
     pEmpty(80),
     infoTable([
