@@ -1,5 +1,13 @@
 const { p, pEmpty, h1, h2, h3, bullet, numBullet, infoTable, noteBox, secretBox, loreBox, voiceBox, warningBox, cdBox, xpBox, pageBreak, npcBlock, C } = require('./helpers');
 
+// Helper local: bloque de estadísticas compacto (igual formato que cap11_combate.js)
+function stat(nombre, cr, flavor, filas, acciones) {
+  const out = [ h3(nombre + "  (" + cr + ")"), p(flavor), infoTable([["Atributo","Valor"], ...filas]) ];
+  if (acciones && acciones.length) { out.push(pEmpty(40)); out.push(infoTable([["Acción / Rasgo","Efecto"], ...acciones], 3200, 6160)); }
+  out.push(pEmpty(80));
+  return out;
+}
+
 function cap14() {
   return [
     h1("14. Arcos Personales de los Personajes Jugadores"),
@@ -104,9 +112,18 @@ function cap14() {
     voiceBox("\"El mapa señala la bodega de la casa, detrás de un estante de vinos que nunca se movió en años de polvo acumulado — salvo que, mirando de cerca, SÍ se movió, y hace poco. Dessa, si está cerca, frunce el ceño: 'Esas dos personas de ahí... no son del servicio. Nunca las vi. ¿Quién las dejó entrar?'\""),
     pEmpty(80),
     cdBox([
-      ["Combate — 3 Agentes de la Red (CR 1 c/u)","—","Mercenarios profesionales, no fanáticos — pelean con eficiencia fría, se rinden o huyen si quedan solos y sin apoyo. Ninguno sabe para quién trabaja más allá de 'un contrato, pagado por adelantado, sin preguntas'"],
+      ["Combate — 3 Agentes de la Red (CR 1 c/u, ficha abajo)","—","Mercenarios profesionales, no fanáticos — pelean con eficiencia fría, se rinden o huyen si quedan solos y sin apoyo. Ninguno sabe para quién trabaja más allá de 'un contrato, pagado por adelantado, sin preguntas'"],
     ]),
-    pEmpty(140),
+    pEmpty(80),
+
+    ...stat("Agente de la Red", "CR 1", "Mercenario profesional contratado para vigilar o buscar, no para pelear a muerte. No sabe para quién trabaja más allá de un contrato pagado por adelantado, sin preguntas.",
+      [["CA / PG / Vel","13 (cuero) / 33 / 9 m"],
+       ["Atributos","FUE +1, DES +3, CON +1, INT +1, SAB +1, CAR +0"],
+       ["Sentidos / Idiomas","Percepción pasiva 11 / Común"]],
+      [["Espada corta","+5 al impacto, 1d6+3 cortante"],
+       ["Daga arrojadiza","+5 al impacto, alcance 6/18 m, 1d4+3 perforante"],
+       ["Golpe Certero (rasgo)","Una vez por turno, si un aliado está a 1,5 m del objetivo, suma 1d6 de daño extra al primer ataque que impacte"],
+       ["Profesional, no fanático (rasgo)","Si queda solo o cae a menos de un cuarto de sus PG máximos, intenta rendirse o huir en vez de pelear a muerte"]]),
 
     h3("Área 2 — El Corredor de Vigilancia"),
     voiceBox("\"Más allá de la entrada, el corredor de piedra tiene marcas de años de búsqueda: paneles arrancados, herramientas de excavación abandonadas, una mesa plegable con notas en un código que nadie del grupo reconoce. Llevan mucho tiempo buscando esto. Nunca lo encontraron.\""),
@@ -122,9 +139,19 @@ function cap14() {
     voiceBox("\"La cámara final antes de la puerta de piedra maciza en el fondo. Un grupo de agentes trabaja contra el sello con herramientas y algo de magia menor, de espaldas al grupo, sin darse cuenta todavía de que ya no están solos.\""),
     pEmpty(80),
     cdBox([
-      ["Combate — 1 Líder de Célula (CR 4) + 3 Agentes de la Red (CR 1 c/u)","—","El líder es la primera oposición seria del arco de Hola — un combate real, no un trámite. Si el grupo ataca por sorpresa (posible si no activaron la alarma del Área 2), gana una ronda de ventaja"],
+      ["Combate — 1 Líder de Célula (CR 4, ficha abajo) + 3 Agentes de la Red (CR 1 c/u, ficha en Área 1)","—","El líder es la primera oposición seria del arco de Hola — un combate real, no un trámite. Si el grupo ataca por sorpresa (posible si no activaron la alarma del Área 2), gana una ronda de ventaja"],
     ]),
     pEmpty(80),
+
+    ...stat("Líder de Célula", "CR 4", "El agente a cargo de esta operación específica — más experimentado, mejor pagado, y con acceso a herramientas que sus subordinados no tienen.",
+      [["CA / PG / Vel","15 (cuero tachonado) / 65 / 9 m"],
+       ["Atributos","FUE +2, DES +3, CON +2, INT +2, SAB +2, CAR +2"],
+       ["Sentidos / Idiomas","Percepción pasiva 12 / Común, más 1 idioma a elección"]],
+      [["Multiataque","2 ataques con estoque: +6 al impacto, 1d8+3 cortante cada uno"],
+       ["Vara de Detección Arcana (1/día)","Como acción, detecta magia en 18 m durante 10 minutos — la herramienta que usa para buscar el sótano"],
+       ["Coordinación Táctica (acción adicional)","Un Agente de la Red a 9 m que pueda oírlo gana Ventaja en su próximo ataque"],
+       ["Esquiva Profesional (reacción)","Cuando recibe un ataque, puede imponer Desventaja a ese ataque 1 vez por turno"]]),
+
     secretBox("SI SE LO INTERROGA: el líder no sabe el nombre real de quien lo contrata — solo un intermediario, pagos en oro sin marcar, instrucciones específicas de 'encontrar el sótano y no tocar nada de lo que hay adentro, solo fotografiar y reportar'. Ni siquiera la propia red confía en sus agentes con la verdad completa — coherente con la indiferencia eficiente de Ozyr (sección 12.7)."),
     pEmpty(140),
 
