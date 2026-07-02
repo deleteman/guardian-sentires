@@ -83,8 +83,8 @@ const doc = new Document({
 });
 
 Packer.toBuffer(doc).then(buffer => {
-  fs.writeFileSync("/mnt/user-data/outputs/El_Guardian_de_los_Sentires_v3.docx", buffer);
-  console.log("\u2705 v3 generado correctamente");
+  fs.writeFileSync("/mnt/user-data/outputs/El_Guardian_de_los_Sentires_v4.docx", buffer);
+  console.log("\u2705 v4 generado correctamente");
   console.log("Tama\u00f1o:", Math.round(buffer.length / 1024), "KB");
 }).catch(err => {
   console.error("\u274c Error:", err.message);
