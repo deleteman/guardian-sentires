@@ -65,13 +65,32 @@ const numBullet = (text, bold=false) => new Paragraph({
   spacing: { before: 60, after: 60 },
 });
 
-const infoTable = (rows, col1Width=2400, col2Width=6960) => new Table({
+const infoTable = (rows, ...colWidths) => {
+  const numCols = rows[0].length;
+  const TOTAL_WIDTH = 9360;
+  let widths;
+  if (colWidths.length >= numCols) {
+    // Ya nos pasaron un ancho por columna (o de mas) - usamos los primeros numCols
+    widths = colWidths.slice(0, numCols);
+  } else if (colWidths.length === 0) {
+    // Sin anchos especificados: primera columna angosta, el resto reparte el resto
+    const first = 2400;
+    const rest = numCols > 1 ? Math.floor((TOTAL_WIDTH - first) / (numCols - 1)) : TOTAL_WIDTH;
+    widths = [first, ...Array(numCols - 1).fill(rest)];
+  } else {
+    // Nos dieron algunos anchos pero no todos: usamos los dados y repartimos el resto entre las columnas faltantes
+    const given = colWidths.reduce((a, b) => a + b, 0);
+    const missing = numCols - colWidths.length;
+    const rest = Math.max(Math.floor((TOTAL_WIDTH - given) / missing), 800);
+    widths = [...colWidths, ...Array(missing).fill(rest)];
+  }
+  return new Table({
   width: { size: 9360, type: WidthType.DXA },
-  columnWidths: [col1Width, col2Width],
+  columnWidths: widths,
   rows: rows.map((row, i) => new TableRow({
     children: row.map((cell, j) => new TableCell({
       borders: cellBorders(C.purpleLight),
-      width: { size: j===0 ? col1Width : col2Width, type: WidthType.DXA },
+      width: { size: widths[j], type: WidthType.DXA },
       shading: i===0 ? { fill: C.purpleDeep, type: ShadingType.CLEAR } : j===0 ? { fill: "F0EBF8", type: ShadingType.CLEAR } : { fill: C.white, type: ShadingType.CLEAR },
       margins: { top: 80, bottom: 80, left: 150, right: 150 },
       verticalAlign: VerticalAlign.CENTER,
@@ -79,6 +98,7 @@ const infoTable = (rows, col1Width=2400, col2Width=6960) => new Table({
     })),
   })),
 });
+};
 
 const noteBox = (label, text, bgColor="F0EBF8", borderColor=C.purpleMid) => new Table({
   width: { size: 9360, type: WidthType.DXA },
