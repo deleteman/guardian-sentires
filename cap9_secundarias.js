@@ -14,6 +14,44 @@ function cap9() {
     noteBox("AMBIENTACIÓN DE LA CIUDAD — opcional, sin tirada","La primera vez que el grupo entra a Neverwinter, antes de cualquier otra cosa, podés narrar de pasada una escena de plaza: un orador menor se sube a un cajón en la plaza del mercado y predica con convicción tranquila: 'La verdadera paz no es ausencia de dolor — es orden. Y el orden empieza por saber qué sentir, y cuándo.' Nadie le presta demasiada atención; es un discurso más entre tantos en una ciudad grande. No tiene ninguna conexión aparente con nada de la trama. (Ver apéndice secreto, Cap. 12, si querés saber de dónde viene realmente esa idea — pero no es para compartir con la mesa).","FFF8E7",C.goldDeep),
     pEmpty(140),
 
+    h3("El Mercado — Otros Puestos"),
+    voiceBox("\"El mercado de Neverwinter no espera a nadie. Telas teñidas colgando entre postes, alguien vendiendo empanadas de venado a los gritos, un grupo de chicos persiguiendo a una gallina escapada, un guardia aburrido apoyado contra un poste mordisqueando una manzana. Dax es apenas un puesto más entre decenas — hay que buscarlo, no se anuncia solo.\""),
+    p("Antes (o después) de llegar al puesto de Dax, el grupo puede cruzarse con otros dos vendedores fijos del mercado, cada uno con su propia personalidad y sin ninguna relación entre sí — ninguno sabe nada del Coleccionista ni de la Niebla. Están ahí para que el mercado se sienta como un lugar real, no como una sala de espera con pistas."),
+    pEmpty(80),
+
+    ...npcBlock(
+      "Tilda Retorta",
+      "Alquimista y vendedora de pociones",
+      "40 años, dedos manchados de todos los colores posibles, delantal quemado en al menos seis lugares distintos. Huele siempre a algo distinto — hoy, a menta quemada",
+      "Directa hasta la brusquedad, pero honesta al extremo: si una poción no sirve para lo que preguntás, te lo dice antes de cobrarte",
+      "Vender lo suficiente para financiar sus experimentos reales, que casi nunca vende",
+      "Buena fuente recurrente de pociones si el grupo vuelve a Neverwinter entre zonas: Curación (50 po), Resistencia al Fuego (90 po), Trepamuros (100 po), y — con suerte, stock limitado — una Poción de Respiración Acuática (150 po, útil si van rumbo al Pantano)",
+      "¿Querés que funcione o querés que sepa bien? Porque las dos cosas juntas me salen carísimas"
+    ),
+
+    ...npcBlock(
+      "Kestrel Amonet",
+      "Vendedor de curiosidades y objetos 'mágicos' exóticos",
+      "Edad indefinida, turbante alto de colores que no combinan a propósito, un solo guante (nunca explica por qué). Su puesto está cubierto de objetos que brillan, vibran o susurran — la mayoría no hace nada",
+      "Teatral, encantador, un poco estafador — pero nunca cruza la línea de la mentira descarada: exagera, insinúa, deja que el cliente se ilusione solo",
+      "Ganarse la vida con el margen entre lo que la gente cree que compra y lo que realmente es",
+      "De cada 4-5 'objetos mágicos' en su puesto, 1 es real (a discreción del DM). Un chequeo de Arcanos CD 15 distingue lo real de lo decorativo antes de comprar — sin la tirada, es una apuesta. Buen lugar para vender objetos raros que el grupo no necesite, o para un capricho ocasional",
+      "Ah, ¿esto? Esto NO es para cualquiera. Pero para ustedes... bueno. Hablemos"
+    ),
+    pEmpty(140),
+
+    h3("El Anticuario y la Moneda Antigua"),
+    p("Si el grupo conserva alguna de las monedas antiguas mencionadas por Donto (sección 4.7, MS-1B) o que Dax admite haber recibido de su intermediario (ver más abajo), en algún puesto del fondo del mercado hay un anticuario — Perrin Foliopolvo, viejo, miope, rodeado de cajas de objetos sin catalogar — que las examina con genuino interés si se las muestran."),
+    pEmpty(80),
+    cdBox([
+      ["Historia o Investigación (del anticuario, no del grupo) para identificar el origen de la moneda","Automático si se la muestran, sin tirada del grupo","—"],
+    ]),
+    pEmpty(80),
+    voiceBox("\"Perrin le da vueltas a la moneda bajo una lupa gruesa durante un largo minuto, en silencio. 'Esto no es de ningún reino que yo conozca. Y yo conozco todos los reinos, muertos y vivos.' Señala un símbolo apenas visible en el borde, gastado por el tiempo: algo parecido a hilos entrelazados, o tal vez una red, o tal vez nada — está demasiado desgastado para estar seguro. 'Ni en los textos más viejos de la Biblioteca Real hay una sola mención de esto. Y créanme, los busqué. Quien sea que la haya acuñado, no queda ni el recuerdo del reino que la acuñó.'\""),
+    pEmpty(80),
+    secretBox("LA MARCA DE LOS TEJEDORES — CONTINUIDAD CON LA SECCIÓN 2.6 Y 7.x: el símbolo que Perrin no puede identificar es, en efecto, la marca de los Primeros Tejedores (ver cap2_npcs.js, sección 2.6) — las mismas entidades que la Reina Espina menciona en los Tres Susurros (cap7_verde.js, quinto acertijo), muchísimo más adelante en la campaña. Perrin JAMÁS debe nombrarlos ni acercarse a la respuesta — ese conocimiento no existe en ningún texto mundano, ni siquiera para el erudito más viejo de Neverwinter. Esto es deliberadamente un callejón sin salida en el momento en que ocurre: una pista que no se resuelve hasta que el grupo, mucho después, escuche a la Reina Espina y pueda atar cabos por su cuenta. Si eso pasa, es un gran momento para un jugador atento — dejá que lo descubran solos, no lo fuerces vos."),
+    pEmpty(140),
+
     h3("Cómo se descubre"),
     p("Sesión 6-8: mientras el grupo está en Neverwinter por cualquier motivo (comprar provisiones, descansar entre zonas), un cliente reconoce un objeto en el puesto de Dax y hay una confrontación verbal en el mercado. El cliente es Old Pell, un pescador que reconoce el anillo de su esposa fallecida en la mesa de Dax. Si el grupo interviene o simplemente observa con atención (Percepción CD 11), notan que Dax se pone nervioso y no puede explicar de dónde sacó el anillo."),
     pEmpty(80),

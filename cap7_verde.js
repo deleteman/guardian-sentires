@@ -212,6 +212,8 @@ function cap7() {
     pEmpty(80),
     secretBox("El quinto acertijo (los Primeros Tejedores) es el más importante: su respuesta apunta directamente a la Colección Antigua del Archivo (Capítulo 8, sección 9.4) y al hecho de que hubo otros guardianes antes que Chromatus. El sexto acertijo le da al grupo un argumento concreto que pueden usar contra Mnemós en el Final B (sección 8.8). Si querés, podés repartir estos acertijos a lo largo de varias visitas en vez de todos de una vez."),
     pEmpty(80),
+    secretBox("CALLBACK OPCIONAL — LA MONEDA DE NEVERWINTER: si tu mesa llevó una moneda antigua de Cuerda-Floja al anticuario Perrin Foliopolvo en Neverwinter (sección 9.1), este es el momento perfecto para el callback: el símbolo que Perrin no pudo identificar entonces —'como hilos entrelazados'— es la misma marca de los Primeros Tejedores. Nadie tiene que decirlo en voz alta. Si algún jugador lo conecta solo, dejá que sea suyo. Si nadie lo nota, no pasa nada — era un misterio sin resolver desde el principio, no una pista que dependiera de esto."),
+    pEmpty(80),
 
     h3("MS-4C: El Hacha de Dwin"),
     p("El hacha de Dwin lleva d\u00edas levantada. Cuando el bosque se restaure, el hacha baja sola \u2014 pero Dwin nota que tiene grabadas runas que no estaban antes. Logos las identifica como runas de protecci\u00f3n fe\u00e9rica. El hacha ahora hace 1d6+1 da\u00f1o y tiene Ventaja contra criaturas de la Oscuridad. Dwin quiere llev\u00e1rsela, pero el grupo puede negociar para quedarse con ella a cambio de acompa\u00f1arlo hasta el borde del bosque (y potencialmente hacerse con el mapa de rutas del gremio de le\u00f1adores)."),
