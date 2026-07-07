@@ -308,7 +308,17 @@ function cap4() {
       ["Paso 4 — Cerrar el patrón con intención, no solo con técnica. Religión, Interpretación o Perspicacia (el momento natural de Angelus, como Clérigo de la Muerte, para darle a esto el peso de un cierre real)","11","Se completa igual, técnicamente perfecto — pero Sella siente que falta algo, y lo dice en voz alta sin reprochárselo a nadie"],
     ]),
     pEmpty(80),
-    p("No hay forma de fallar del todo — cada tirada fallida solo agrega tiempo o un pequeño detalle emocional, nunca detiene el proceso. Si el grupo completa los cuatro pasos (incluido el 4 con éxito), Sella arma en agradecimiento un par de 'Cometas de Sella': lanzadas como acción, despliegan una tela liviana que reduce el daño de una caída a la mitad una vez por descanso largo. Un objeto de zona feliz, sin ninguna pretensión de ser una pista sobre el Coleccionista — este es un momento que es solo de Sella."),
+    p("No hay forma de fallar del todo — el patrón siempre se termina, y Sella siempre tiene su cierre emocional. Lo que varía con la cantidad de tiradas exitosas (de las 4) es qué tan bien sale el trabajo, y eso se refleja en la recompensa:"),
+    pEmpty(80),
+    infoTable([
+      ["Éxitos (de 4)","Cómo sale el patrón","Recompensa"],
+      ["4 de 4","Queda perfecto — Sella llora de alivio, no de tristeza, al verlo terminado","Par completo de 'Cometas de Sella': lanzadas como acción, cada una reduce el daño de una caída a la mitad, 1 vez por descanso largo"],
+      ["3 de 4","Casi perfecto — Sella nota un detalle fuera de lugar y lo menciona sin remordimiento, satisfecha igual","Una sola 'Cometa de Sella' (mismo efecto: reduce el daño de caída a la mitad, 1 vez por descanso largo)"],
+      ["2 de 4","Más tosco de lo que a Sella le hubiera gustado, pero terminado — agradece igual, sabiendo que no quedó perfecto","Una 'Cometa de Sella' con efecto reducido: reduce el daño de una caída en 1d6 en vez de a la mitad"],
+      ["0 o 1 de 4","El patrón se completa de todos modos (Sella no se rinde), pero sale frágil","Sin objeto utilizable — queda colgada en el taller como pieza decorativa. El cierre emocional de Sella pasa igual, sin cambios"],
+    ], 2400, 5200, 5600),
+    pEmpty(80),
+    p("Un objeto de zona feliz, sin ninguna pretensión de ser una pista sobre el Coleccionista — este es un momento que es solo de Sella."),
     pEmpty(80),
 
     h3("Donto"),
