@@ -221,18 +221,6 @@ function cap4() {
 
     h2("4.7 Misiones Secundarias de la Zona"),
 
-    h3("MS-1A: El Festival Roto"),
-    p("Las cometas de Sella están volando libres por el pueblo y causando accidentes menores. Si el grupo las recoge todas (12 cometas, algunas en lugares difíciles), Sella — cuando recupere la cordura — les da acceso al compartimento secreto de su taller donde guarda los diseños originales de cometas de su madre. Uno de los diseños tiene anotaciones en un idioma que Logos no reconoce inmediatamente — tarda hasta la próxima sesión en traducirlas. La traducción menciona 'el archivista que preguntó por los vientos más alegres'."),
-    pEmpty(80),
-    cdBox([
-      ["Acrobacias para atrapar la cometa en el tejado de la posada","14","Caída de 3m: 1d6 de daño"],
-      ["Percepción para encontrar la cometa escondida en la copa del árbol central","13","Se necesita trepar: Atletismo CD 11"],
-      ["Percepción para notar que faltan más cometas de las que deberían — alguien se las llevó a propósito","14","No conectan los puntos todavía: la pista de los saqueadores queda para más tarde (ver MS-1E)"],
-    ]),
-    pEmpty(80),
-    warningBox("SI FALLAN FEO: si el grupo abandona la búsqueda a mitad de camino o falla varias tiradas seguidas, una de las cometas termina destrozada contra las rocas del río antes de que puedan llegar. Sella igual recupera la cordura y agradece el esfuerzo, pero esa cometa en particular — la última que voló con su madre — no vuelve a existir. Sella lo nota, y ese pequeño duelo extra queda sin cerrar del todo."),
-    pEmpty(80),
-
     h3("MS-1B: La Olla de Donto"),
     p("La cocina de la posada está a punto de incendiarse (ver sección de lugares). El grupo tiene que elegir cómo actuar: apagarla con agua es rápido, pero moja (y puede arruinar) la 'lista de clientes especiales' guardada en un estante junto al fuego; sofocarla con cuidado (una manta, arena, cortar el fuego de la base) protege el registro, pero exige mantener la calma bajo presión mientras el humo se espesa."),
     pEmpty(80),
@@ -269,7 +257,7 @@ function cap4() {
     h2("4.8 Recompensas de la Zona"),
     xpBox([
       ["Completar el ritual de enraizamiento (cualquier método)", "Hito", "Sube a nivel 6 (ver sección 1.6)"],
-      ["MS-1A: Recuperar las 12 cometas de Sella", "Secundaria", "Diseños de cometas + traducción de pista (Coleccionista)"],
+      ["MS-1A: El Festival Roto", "Secundaria (Aftermath, ver sección 4.9)", "Diseños de cometas de la madre de Sella + Cometas de Sella (reduce daño de caída a la mitad, 1/descanso largo)"],
       ["MS-1B: Salvar la cocina de Donto", "Secundaria", "Lista de clientes especiales + pista del 'Geógrafo Azul'"],
       ["MS-1C: Obtener el diario de Nira", "Secundaria", "Adelanto narrativo: Logos predice la mecánica del Pantano"],
       ["MS-1D: La Campana que Nunca Sonó", "Secundaria (Aftermath, ver sección 4.9)", "Campana reparada (recuerdo) + cierre compartido con Nira"],
@@ -294,8 +282,16 @@ function cap4() {
     secretBox("QUÉ SIGNIFICA ESTO PARA EL DM: Barnaby no se vuelve inútil ni hostil — se vuelve exactamente lo que ya estaba anotado en su npcBlock (sección 4.4): su locura habitual, pero más consciente. Ya no es un narrador confiable en el sentido estricto (mezcla datos reales con delirios felices sin darse cuenta), pero sigue siendo cálido y sigue queriendo al grupo. Si vuelven a Cuerda-Floja más adelante, o lo encuentran después en Neverwinter vendiendo sus 'mapas del queso del cielo', la información útil sigue ahí — solo que codificada dentro de su nueva forma de ver el mundo, y el grupo tiene que aprender a traducirlo. Es un cambio de tono, no una pérdida de utilidad. Y hay algo genuinamente agridulce en esto: por un rato, Barnaby fue necesario, preciso, escuchado. Ahora vuelve a ser 'el loco del pueblo' — feliz de nuevo, pero también un poco más solo."),
     pEmpty(140),
 
-    h3("Sella"),
-    p("Si el ancla del hilo sobrevivió intacta: llora de verdad por primera vez frente al grupo, sosteniendo el hilo cortado — el duelo por la cometa que nunca voló por fin tiene espacio para existir. Si la cometa fue destruida (ver 4.7, MS-1A): el llanto es el mismo, pero queda una pieza sin cerrar — lo menciona una vez, sin reproche, y sigue con su vida. En ambos casos, si el grupo hizo MS-1E y recuperó las cometas robadas, Sella las cuelga esa misma tarde, en silencio, una por una."),
+    h3("Sella y MS-1A: El Festival Roto"),
+    p("Si el ancla del hilo sobrevivió intacta: llora de verdad por primera vez frente al grupo, sosteniendo el hilo cortado — el duelo por la cometa que nunca voló por fin tiene espacio para existir. Si el ancla se destruyó durante el combate del ritual: el llanto es el mismo, pero queda una pieza sin cerrar — lo menciona una vez, sin reproche, y sigue con su vida. Si el grupo hizo MS-1E y recuperó las cometas robadas, Sella las cuelga esa misma tarde, en silencio, una por una."),
+    pEmpty(80),
+    p("Con la cabeza clara, Sella quiere ordenar el taller — las cometas que quedaron dispersas por el pueblo durante el caos, las telas enredadas, todo. No hace falta resolver esto persiguiendo cometas una por una: es una tarde de trabajo compartido. Una sola tirada de Percepción o Investigación (la más alta del grupo) determina cuánto tardan y qué tan bien va."),
+    pEmpty(80),
+    cdBox([
+      ["Percepción o Investigación (una sola tirada, la más alta del grupo) para ayudar a ordenar el taller","12","Tardan toda la tarde en vez de un par de horas — sin otra consecuencia"],
+    ]),
+    pEmpty(80),
+    p("Mientras ordenan, aparece un compartimento secreto bajo el mostrador con los diseños originales de cometas de la madre de Sella. Uno está sin terminar — el patrón de nudos que la madre le estaba enseñando el día que murió. Sella nunca aprendió a completarlo; nadie más en el pueblo sabe cómo. Si el grupo se ofrece a ayudarla a terminarlo (no hace falta tirada, es un momento de mesa, no un desafío), Sella arma en agradecimiento un par de 'Cometas de Sella': lanzadas como acción, despliegan una tela liviana que reduce el daño de una caída a la mitad una vez por descanso largo. Un objeto de zona feliz, sin ninguna pretensión de ser una pista sobre el Coleccionista — este es un momento que es solo de Sella."),
     pEmpty(80),
 
     h3("Donto"),
@@ -303,13 +299,20 @@ function cap4() {
     pEmpty(80),
 
     h3("Emmer y MS-1D: La Campana que Nunca Sonó"),
-    p("Ya lúcido, Emmer se acerca por primera vez a mirar bien la campana que llevaba días golpeando — no para usarla, solo para verla. Si el grupo está cerca, puede pedirles ayuda: hay un nombre grabado en el borde interior, gastado casi hasta desaparecer. Ni él lo reconoce."),
+    p("Ya lúcido, Emmer se acerca por primera vez a mirar bien la campana que llevaba días golpeando — no para usarla, solo para verla. Si el grupo está cerca, puede pedirles ayuda: hay un nombre grabado en el borde interior, gastado casi hasta desaparecer. Ni él lo reconoce, y tampoco tiene forma de averiguarlo solo — su familia no es de acá, aprendió el oficio de su padre en otro pueblo antes de instalarse en Cuerda-Floja."),
     pEmpty(80),
     cdBox([
       ["Investigación para leer el nombre gastado en el borde de la campana","13","Se lee a medias — hace falta preguntar en el pueblo para confirmarlo"],
     ]),
     pEmpty(80),
-    p("El nombre, si se lo muestran a Nira (la memoria viva del pueblo), la deja pálida. Es alguien que ella perdió hace décadas — la campana se fundió para ese funeral, pero nunca llegó a instalarse donde correspondía: se mezcló por error con el stock de campanas de fiesta del padre de Emmer, y terminó sonando en festivales durante años sin que nadie lo supiera."),
+    p("Con el nombre en mano, hay dos caminos para identificar de quién se trata — ninguno obliga a pensar en Nira específicamente, el grupo llega ahí investigando, no por corazonada:"),
+    pEmpty(80),
+    cdBox([
+      ["Preguntarle a Barnaby (50 años en la plaza, conoce la historia chica del pueblo) — Historia o Persuasión","12","Se queda pensando un largo rato: 'Ese nombre... me suena de hace mucho. Puede que se lo pregunten a Nira — ella es la que más tiempo lleva acá'"],
+      ["Revisar los registros del templo (los mismos que ya tienen las dos entradas contradictorias) buscando ese nombre específico","14","Encuentran la entrada exacta: 'sobrevivido por su esposa, Nira Cendal' — ya no hace falta adivinar cuál de las dos entradas es la correcta"],
+    ]),
+    pEmpty(80),
+    p("Si el grupo no sigue ninguno de los dos caminos, la misión simplemente no avanza — Emmer se queda con una curiosidad sin resolver, y no hay ninguna consecuencia por dejarlo así. Si la siguen, el nombre, mostrado a Nira, la deja pálida: es su esposo, perdido hace décadas. La campana se fundió para ese funeral, pero nunca llegó a instalarse donde correspondía: se mezcló por error con el stock de campanas de fiesta del padre de Emmer, y terminó sonando en festivales durante años sin que nadie lo supiera."),
     pEmpty(80),
     noteBox("EL DILEMA — DOS PERSONAS, NO UNA","Esto ya no es solo 'cómo decírselo a Emmer' — ahora hay dos personas de por medio. Contárselo a Emmer de golpe puede hacer que él mismo corra a disculparse con Nira sin cuidado, reabriendo una herida que ella no eligió mostrar. Manejarlo con calma puede convertirse en un cierre compartido entre los dos: la campana sonando una sola vez, correctamente, para quien Nira perdió — no como reparación de un error, sino como el funeral que nunca terminó de pasar.","FFF8E7",C.goldDeep),
     pEmpty(80),
