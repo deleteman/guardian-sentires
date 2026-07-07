@@ -167,13 +167,21 @@ function cap4() {
     pEmpty(80),
     numBullet("De Sella: el hilo cortado de la primera cometa que hizo con su madre — nunca voló, lo guarda como recuerdo sin saberlo mientras está atrapada en el loop"),
     numBullet("De Donto: la primera copa que sirvió el día que abrió la posada, guardada en un estante alto de la cocina, fuera del caos de vasos vacíos"),
-    numBullet("De Emmer: la campana silenciosa retirada, guardada en el altillo de su taller"),
+    numBullet("De Emmer: la campana rajada que golpea sin parar contra su mazo — no está guardada en ningún lado, hay que sacársela mientras sigue en movimiento"),
     pEmpty(80),
     cdBox([
       ["Persuasión o Perspicacia para que Sella suelte el hilo un momento","14","Lo suelta pero lo persigue el resto de la escena — tarda un turno extra en calmarse"],
       ["Investigación para encontrar la copa de Donto entre el caos de vasos","13","Necesitan además Atletismo CD 11 para alcanzar el estante alto"],
-      ["Atletismo para subir la escalera de mano de Emmer sin que ceda","11","Caen 1.5 m: 1d4 de daño"],
-      ["Percepción para identificar la campana correcta entre varias campanas viejas","13","Bajan la equivocada — Emmer los corrige con una pista y deben volver a intentarlo"],
+    ]),
+    pEmpty(80),
+
+    h3("Emmer — Tres Formas de Sacarle la Campana"),
+    p("A diferencia de Sella (persuasión) y Donto (investigación), Emmer no está quieto: balancea un mazo pesado contra la campana en swings amplios y constantes, en un taller chico. Acercarse mal significa exponerse al mazo, o arriesgar que la campana —ya rajada— termine de romperse si alguien la agarra en el momento equivocado. Ninguno de los tres caminos es automático."),
+    pEmpty(80),
+    cdBox([
+      ["Timing — Percepción o Perspicacia para leer el patrón de sus swings, luego Destreza (Acrobacias o Juego de Manos) para sacarla en la ventana correcta","13, después 13","1d6 de daño contundente (el mazo de refilón) Y tirada extra para ver si la campana sobrevive intacta"],
+      ["Calmarlo primero — Persuasión o Interpretación, igualando su ritmo o cantando en el mismo compás hasta que baja la velocidad solo","14","No baja la velocidad todavía — se puede reintentar sin penalización, es solo más lento"],
+      ["Fuerza o magia (sujetarlo, atarlo, dormirlo) — sigue siendo válido y rápido, pero ya no es gratis: reducirlo de golpe a mitad de swing arriesga la campana","Destreza CD 12 para ver si la campana cae limpia o se estrella y se rompe","Si se rompe, aplica la regla general de 'si se destruye un ancla' (sección más abajo)"],
     ]),
     pEmpty(80),
 
@@ -252,21 +260,6 @@ function cap4() {
     p("El diario completo contiene 8 entradas detalladas del comportamiento de los aldeanos — información suficiente para que Logos elabore una teoría sobre el mecanismo de vaciado. Esta teoría anticipa una mecánica que verán en el Pantano de los Muertos (el siguiente destino sugerido). Si el grupo insiste en leer la entrada incómoda en voz alta frente a ella en vez de respetarla en privado, Nira se cierra: sigue ayudando, pero no vuelve a confiar del todo en el grupo."),
     pEmpty(80),
 
-    h3("MS-1D: La Campana que Nunca Sonó"),
-    p("Independiente de si se usó como ancla del ritual, Emmer menciona — a quien lo escuche con paciencia — que esa campana rajada en particular nunca debió estar en su taller de festival. Los registros del templo, sin embargo, son confusos: hay dos entradas contradictorias sobre a qué familia perteneció la campana, con veinte años de diferencia entre ellas. Confirmar cuál es la correcta requiere cruzar la información con alguien más del pueblo."),
-    pEmpty(80),
-    cdBox([
-      ["Historia o Investigación para encontrar los registros del templo","13","Encuentran las dos entradas contradictorias, sin saber cuál es real"],
-      ["Persuasión con Barnaby o Nira para que confirmen cuál de las dos familias tuvo un funeral esos años","12","Ninguno de los dos recuerda con certeza — el grupo debe elegir a cuál versión creerle"],
-    ]),
-    pEmpty(80),
-    p("Una vez que creen tener la respuesta correcta, queda la parte difícil: cómo decírselo a Emmer. Decírselo con delicadeza (dándole tiempo, dejando que él saque sus propias conclusiones) hace que lo tome con calma y agradecimiento. Decírselo de golpe, aunque sea con buenas intenciones, lo hiere — se avergüenza profundamente de haber usado por años una campana de duelo para alegrar festivales."),
-    pEmpty(80),
-    cdBox([
-      ["Persuasión para dar la noticia con tacto","13","Emmer la toma mal: agradece la verdad pero no repara la campana ni queda como contacto — solo pide que lo dejen solo"],
-    ]),
-    pEmpty(80),
-
     h3("MS-1E: Los Saqueadores de la Risa (Combate Opcional)"),
     p("Nira, si se ganó su confianza, menciona que hace algunas noches vio sombras entrando y saliendo de la casa de cometas abandonada, al otro lado del pueblo. Nadie más lo notó: la euforia artificial vuelve a los demás ciegos a cualquier cosa fuera de su loop. Es una banda de saqueadores comunes (sin relación con la Escama) aprovechando el caos para robar a los aldeanos delante de sus narices. Su escondite es un sótano de 3 salas bajo la casa abandonada — encuentro, mapa de salas y botín completos en la sección 11.2 ('Saqueadores de la Risa'). Entre lo robado: varias de las cometas de Sella (MS-1A) y un objeto sentimental de Nira (devolverlo refuerza su confianza, ver MS-1C)."),
     pEmpty(80),
@@ -279,7 +272,7 @@ function cap4() {
       ["MS-1A: Recuperar las 12 cometas de Sella", "Secundaria", "Diseños de cometas + traducción de pista (Coleccionista)"],
       ["MS-1B: Salvar la cocina de Donto", "Secundaria", "Lista de clientes especiales + pista del 'Geógrafo Azul'"],
       ["MS-1C: Obtener el diario de Nira", "Secundaria", "Adelanto narrativo: Logos predice la mecánica del Pantano"],
-      ["MS-1D: Ayudar a Emmer con la campana", "Secundaria", "Campana reparada (recuerdo) + contacto de confianza para futuras zonas"],
+      ["MS-1D: La Campana que Nunca Sonó", "Secundaria (Aftermath, ver sección 4.9)", "Campana reparada (recuerdo) + cierre compartido con Nira"],
       ["MS-1E: Derrotar o ahuyentar a los Saqueadores de la Risa", "Secundaria (opcional)", "Botín completo (ver sección 11.2) + refuerza los cierres de Sella y Nira"],
       ["Salvar a los 4 NPCs sin perder ninguno", "Bonus de rol", "Inspiración para cada jugador en la próxima sesión"],
     ]),
@@ -309,12 +302,26 @@ function cap4() {
     p("Si la cocina se salvó sin daño: organiza esa misma noche una cena gratis para el grupo con lo poco que tiene, insiste en que no es opcional. Si se salvó pero la lista de clientes quedó dañada por el agua: agradece igual, pero lamenta en voz alta no poder leerle bien la mitad de los nombres — un pequeño costo narrativo, no mecánico. Si la cocina se quemó: la posada está cerrada por reparaciones; Donto igual sale a saludar al grupo, agradecido pero visiblemente cansado, y pide disculpas por no poder ofrecerles ni un té."),
     pEmpty(80),
 
-    h3("Emmer"),
-    p("Si le contaron lo de la campana con delicadeza: aparece con ella ya reparada, colgada de nuevo en su lugar, y la toca una sola vez frente al grupo — suena, por fin, un tono limpio. Si se lo dijeron de golpe: sigue en su taller, la campana guardada, sin ganas de hablar del tema todavía; puede resolverse en una visita futura. Si nunca se resolvió el tema de la procedencia de la campana: simplemente agradece que lo hayan ayudado con el ritual y sigue con su vida, sin saber lo que casi descubren."),
+    h3("Emmer y MS-1D: La Campana que Nunca Sonó"),
+    p("Ya lúcido, Emmer se acerca por primera vez a mirar bien la campana que llevaba días golpeando — no para usarla, solo para verla. Si el grupo está cerca, puede pedirles ayuda: hay un nombre grabado en el borde interior, gastado casi hasta desaparecer. Ni él lo reconoce."),
+    pEmpty(80),
+    cdBox([
+      ["Investigación para leer el nombre gastado en el borde de la campana","13","Se lee a medias — hace falta preguntar en el pueblo para confirmarlo"],
+    ]),
+    pEmpty(80),
+    p("El nombre, si se lo muestran a Nira (la memoria viva del pueblo), la deja pálida. Es alguien que ella perdió hace décadas — la campana se fundió para ese funeral, pero nunca llegó a instalarse donde correspondía: se mezcló por error con el stock de campanas de fiesta del padre de Emmer, y terminó sonando en festivales durante años sin que nadie lo supiera."),
+    pEmpty(80),
+    noteBox("EL DILEMA — DOS PERSONAS, NO UNA","Esto ya no es solo 'cómo decírselo a Emmer' — ahora hay dos personas de por medio. Contárselo a Emmer de golpe puede hacer que él mismo corra a disculparse con Nira sin cuidado, reabriendo una herida que ella no eligió mostrar. Manejarlo con calma puede convertirse en un cierre compartido entre los dos: la campana sonando una sola vez, correctamente, para quien Nira perdió — no como reparación de un error, sino como el funeral que nunca terminó de pasar.","FFF8E7",C.goldDeep),
+    pEmpty(80),
+    cdBox([
+      ["Persuasión o Perspicacia para manejar la revelación con cuidado (con cualquiera de los dos, antes de que hablen entre sí)","13","Uno de los dos se entera primero por su cuenta, sin el contexto completo, y la escena sale más torpe de lo necesario"],
+    ]),
+    pEmpty(80),
+    p("Si el grupo llega al cierre compartido, Angelus (si está en la mesa) tiene un momento natural para oficiar: como Clérigo de la Muerte, puede ser quien haga sonar la campana una última vez, correctamente, cerrando algo que llevaba décadas sin cerrarse. No hace falta ninguna decisión difícil de su parte — solo el gesto, ya ganado por el resto del grupo."),
     pEmpty(80),
 
     h3("Nira"),
-    p("Si confía plenamente en el grupo (diario completo, sin forzar la entrada incómoda): abre la puerta de par en par por primera vez en la zona, los invita a pasar, y les entrega las hierbas medicinales sin condiciones. Si se cerró un poco (leyeron la entrada incómoda frente a ella, o nunca hicieron MS-1E para recuperar su objeto sentimental): sigue agradecida por el ritual, pero habla desde el umbral, no desde adentro — la puerta se queda entreabierta, no de par en par."),
+    p("Si confía plenamente en el grupo (diario completo, sin forzar la entrada incómoda): abre la puerta de par en par por primera vez en la zona, los invita a pasar, y les entrega las hierbas medicinales sin condiciones. Si se cerró un poco (leyeron la entrada incómoda frente a ella, o nunca hicieron MS-1E para recuperar su objeto sentimental): sigue agradecida por el ritual, pero habla desde el umbral, no desde adentro — la puerta se queda entreabierta, no de par en par. Si además se resolvió MS-1D con cuidado, esta es la escena donde más se abre de las dos versiones posibles — el cierre de la campana pesa más que cualquier tensión anterior."),
     pEmpty(80),
 
     h3("Cierre y Gancho"),
