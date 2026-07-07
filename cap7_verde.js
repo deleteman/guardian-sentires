@@ -222,11 +222,49 @@ function cap7() {
     h2("7.9 Recompensas de la Zona"),
     xpBox([
       ["Activar el mecanismo del Árbol Central (cualquier resultado)", "Hito", "Sube a nivel 11 (ver sección 1.6)"],
-      ["MS-4A: Liberar a los 8 animales (por cualquier m\u00e9todo)", "Secundaria", "Pista del Lobo Fe\u00e9rico sobre el Coleccionista"],
-      ["MS-4B: Conseguir audiencia con la Reina Espina", "Secundaria", "Lore profundo sobre el origen de Chromatus y los guardianes-drag\u00f3n"],
+      ["MS-4A: Liberar a los 8 animales (por cualquier método)", "Secundaria", "Pista del Lobo Feérico sobre el Coleccionista"],
+      ["MS-4B: Conseguir audiencia con la Reina Espina", "Secundaria", "Lore profundo sobre el origen de Chromatus y los guardianes-dragón"],
       ["MS-4C: Quedarse con el hacha encantada de Dwin", "Secundaria", "Hacha +1d6+1, Ventaja vs. criaturas de Oscuridad"],
       ["Aprender el truco de Sigilo de Sylveth", "Secundaria", "+2 adicional permanente a Sigilo (un personaje)"],
     ]),
+    pEmpty(140),
+
+    h2("7.10 Aftermath — El Día Después"),
+    p("El bosque es la zona más sensorial de las cuatro — el aftermath tiene que jugar con sonido y movimiento antes que con diálogo."),
+    pEmpty(80),
+
+    h3("Escena General — El Bosque Vuelve a Moverse"),
+    voiceBox("\"Pasa todo junto, de golpe: el viento que no se sentía empieza a mover las hojas, y el sonido llega con una fracción de segundo de atraso, como si el bosque hubiera estado conteniendo el aliento. Los pájaros que estaban posados sin parpadear levantan vuelo entre gritos. En el Claro de los Espejos, el estanque se agita por primera vez en semanas. El silencio suspendido se rompe en un solo instante de ruido — y después, silencio normal. El de siempre, el que sí tiene grillos y viento.\""),
+    pEmpty(140),
+
+    h3("Lo que Plantaron en el Mecanismo"),
+    p("El objeto o gesto que el grupo eligió para el paso 3 (sección 7.6) debería reaparecer acá, no solo en el momento — dejá que el bosque se lo quede como parte del paisaje:"),
+    pEmpty(60),
+    infoTable([
+      ["Qué plantaron","Cómo se ve en el aftermath"],
+      ["Una semilla","Ya hay un brote visible donde la plantaron — crece rápido, de forma casi antinatural, como agradecimiento del bosque"],
+      ["Un objeto con historia personal","El objeto queda incrustado en la corteza del Árbol Central permanentemente — si vuelven en el futuro, todavía está ahí"],
+      ["Una intención declarada en voz alta","El eco suave de esa intención se puede seguir escuchando, muy bajito, si alguien se queda en silencio junto al árbol"],
+      ["Un recuerdo feliz","El Claro de los Espejos, además de reflejar su día congelado de siempre, ahora también refleja ese recuerdo una vez más, como una segunda imagen superpuesta"],
+    ], 3000, 6360),
+    pEmpty(140),
+
+    h3("Dwin"),
+    p("Si fue liberado a tiempo: está vivo, exagerando lo entumecido que tiene el brazo del hacha, y acompaña al grupo hasta el borde del bosque contando chistes malos de puro alivio. Entrega el mapa de rutas del gremio de leñadores como agradecimiento. Si se activó el reloj narrativo (sección 7.5) y no llegaron a tiempo: lo encuentran caído al pie del árbol, el hacha por fin en el suelo, sin vida. El bosque se restaura igual y la escama aparece igual — pero el grupo se queda con el cuerpo, sin mapa, sin el gancho del gremio, y sin la calidez que este personaje menor podría haber aportado. No hace falta subrayarlo más de lo necesario; el peso tiene que sentirse solo."),
+    pEmpty(80),
+
+    h3("Sylveth"),
+    p("Si fue liberado de su parálisis durante la zona: se mueve de nuevo con total naturalidad, como si nunca hubiera estado atrapado, y agradece al grupo con el truco de Sigilo prometido. Menciona, de pasada, que va a reportar lo sucedido a su propia gente — un gancho suave hacia el Plano de las Hadas para el futuro, sin urgencia."),
+    pEmpty(80),
+
+    h3("La Reina Espina (si consiguieron audiencia)"),
+    p("No aparece en persona en el aftermath — pero Fendrel, su heraldo, se acerca una última vez al punto de cruce para dejar un mensaje breve: 'Mi señora toma nota. El equilibrio vuelve a este rincón del bosque. Eso no pasa desapercibido para la Corte de las Hojas Quietas.' Es reconocimiento distante, no una alianza — coherente con el tono aristocrático y evaluador de la Reina."),
+    pEmpty(80),
+
+    h3("Cierre y Gancho"),
+    p("Logos cierra el registro con algo parecido a la duda genuina: 'Registro cerrado: Bosque de Neverwinter. Nota personal: encontré un nombre sin tachar en la lista del árbol. Chromatus. No tengo un dato previo con el que cruzarlo. Pero algo en mi arquitectura me dice que debería.' Es el gancho directo hacia el Acto III, sin importar qué más haya pasado en la zona."),
+    pEmpty(140),
+
     pageBreak(),
   ];
 }

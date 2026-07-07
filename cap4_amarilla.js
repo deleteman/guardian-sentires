@@ -22,7 +22,11 @@ function cap4() {
     h2("4.1 Descripci\u00f3n General de la Zona"),
     p("Cuerda-Floja es un pueblo de 200 habitantes enclavado entre dos colinas, conocido por sus mercados de artesan\u00edas y su festival anual de cometas. Normalmente es ruidoso y colorido. Ahora el color se ha ido \u2014 pero el ruido no."),
     pEmpty(80),
-    voiceBox("\"El pueblo de Cuerda-Floja deber\u00eda ser la clase de lugar donde los ni\u00f1os corren y los vendedores gritan los precios de sus mercanc\u00edas. Y de hecho, eso es exactamente lo que ven. Gente corriendo \u2014 pero tropezando entre s\u00ed sin re\u00edrse del golpe. Vendedores gritando \u2014 pero los mismos precios una y otra vez, sin variaci\u00f3n. Una mujer baila sola en la plaza. Un hombre construye una torre de sombreros frente a una zapater\u00eda cerrada. Todos tienen los ojos abiertos. Ninguno parece ver nada.\""),
+    voiceBox("\"El pueblo de Cuerda-Floja debería ser la clase de lugar donde los niños corren y los vendedores gritan los precios de sus mercancías. Y de hecho, eso es exactamente lo que ven. Gente corriendo — pero tropezando entre sí sin reírse del golpe. Vendedores gritando — pero los mismos precios una y otra vez, sin variación. Una mujer baila sola en la plaza. Un hombre construye una torre de sombreros frente a una zapatería cerrada. Todos tienen los ojos abiertos. Ninguno parece ver nada.\""),
+    pEmpty(80),
+    voiceBox("\"Mientras terminan de asimilar la escena, algo se mueve donde no debería: en la casa más alejada del pueblo, casi en el límite del bosque, una cortina se corre apenas — lo justo para que se vea, por una fracción de segundo, la silueta de alguien parado ahí, quieto, mirándolos. En cuanto alguien del grupo devuelve la mirada, la cortina se cierra de golpe. Nadie más en el pueblo reaccionó a la llegada del grupo. Esa persona sí.\""),
+    pEmpty(80),
+    noteBox("ESTO ES NIRA — NO LO DEJES PASAR","Este es el gancho de Nira (sección 4.4), pensado para que sea imposible de ignorar: a diferencia del resto del pueblo, ella SÍ los registró como algo fuera de lo común desde el primer segundo. Si el grupo no investiga de inmediato, está bien — pero no dejes que el momento pase sin describirlo con esta fuerza. Si en algún momento más adelante parecen haberse olvidado de la casa del borde del pueblo, un aldeano eufórico puede señalar vagamente hacia allá sin razón aparente ('¡ahí vive la que no juega con nosotros!', dicho con la misma alegría vacía de siempre) como recordatorio.","FFF8E7",C.goldDeep),
     pEmpty(140),
 
     h2("4.2 El Efecto de la Escama Perdida"),
@@ -81,8 +85,30 @@ function cap4() {
       "Ir\u00f3nico y ligeramente melanc\u00f3lico de estar cuerdo. Habla con precisi\u00f3n inusual. Extra\u00f1a su propia locura y lo dice abiertamente",
       "Restaurar la Escama Amarilla para volver a ser \u00e9l mismo. Considera que la locura alegre es m\u00e1s honesta que la cordura",
       "Durante la sesi\u00f3n act\u00faa como gu\u00eda. Si el ritual funciona, recupera su locura habitual pero m\u00e1s consciente. Reaparece en Neverwinter en sesiones posteriores vendiendo 'mapas del queso del cielo' que en realidad tienen informaci\u00f3n \u00fatil codificada",
-      "El cielo sigue siendo de queso gouda. Ahora que soy cuerdo, ya nadie me cree \u2014 pero tampoco puedo demostrarlo, lo cual es mucho peor"
+      "El cielo sigue siendo de queso gouda. Ahora que soy cuerdo, ya nadie me cree — pero tampoco puedo demostrarlo, lo cual es mucho peor"
     ),
+
+    h3("Diálogo de Barnaby — Cómo Sabe lo que Sabe"),
+    p("Barnaby no es un dispensador de pistas — tiene una razón concreta para saber lo que sabe, y el grupo puede sacársela con preguntas normales. Usá estos bloques en el orden que la mesa los pida, no como un monólogo único."),
+    pEmpty(80),
+    voiceBox("\"PRIMER CONTACTO (si todavía no hablaron con él): 'Ah. Visitantes. Qué novedad — la última visitante notable fue una gaviota, y ni siquiera tenía preguntas inteligentes. [señala el cartel] Sí, soy el único cuerdo. No, no es un halago. El cielo sigue siendo de queso gouda, ¿saben? Ahora que estoy cuerdo, ya nadie me cree — pero tampoco puedo demostrarlo, lo cual es mucho peor.'\""),
+    pEmpty(80),
+    voiceBox("\"SI PREGUNTAN QUÉ PASÓ: les explica, con esa precisión inusual suya, que algo le sacó a la alegría del pueblo su ancla — que la gente ríe porque un mecanismo los obliga, no porque algo los alegre. Lo sabe con una claridad espantosa, porque es el único que quedó afuera del loop.\""),
+    pEmpty(80),
+    voiceBox("\"SI PREGUNTAN CÓMO SABE ESO — o cómo terminó cuerdo él solo: 'Un hombre vino, hace... ¿cuánto? Perdí la cuenta de los días. Elegante. Educado, de esos que te preguntan las cosas como si de verdad les importara la respuesta. Me preguntó dónde la gente es más feliz por acá. Yo, idiota de mí, le hablé del festival, de las cometas, de lo bien que la pasamos. Tomó notas en un libro azul oscuro, me agradeció como si le hubiese resuelto la vida, y se fue. Al otro día el cielo ya no tenía el mismo color.'\""),
+    pEmpty(80),
+    voiceBox("\"SI PREGUNTAN POR QUÉ ÉL QUEDÓ AFUERA DEL LOOP: '¿Que por qué yo sigo cuerdo y el resto no? No tengo la menor idea, y créanme que lo pensé bastante. Mi mejor teoría, y subrayo la palabra teoría: toda mi vida dudé de todo. Filosofía, cada libro que leí, cada cosa que me dijeron de chico — la sometí a duda antes de creerla. Sospecho que lo que sea que les pasó a ellos necesita que uno CREA sin pensarlo. Yo no sé creer así. Nunca pude. Así que tal vez por eso quedé afuera — no por suerte, por costumbre. Pero no se los puedo asegurar. Es lo único que tengo, y ni yo mismo confío del todo en eso.'\""),
+    pEmpty(80),
+    secretBox("POR QUÉ ESTO IMPORTA MECÁNICAMENTE: la teoría de Barnaby (la duda como protección) conecta directo con las Sombras de Duda ya establecidas en la campaña (sección 3.4) — es la misma lógica temática, aplicada a una persona en vez de a un monstruo. También es la semilla de por qué él mismo llega a la idea del ritual con anclas: razonó su propia inmunidad y la aplicó al problema del pueblo. No hace falta que lo diga explícitamente — si un jugador lo conecta solo, dejalo pasar como un buen momento de mesa."),
+    pEmpty(80),
+    voiceBox("\"SI PREGUNTAN CÓMO SABE ARMAR UN RITUAL: 'Yo no sé de magia, que quede claro. Lo mío son los libros y las costumbres viejas — antes de todo esto, me entretenía anotando las supersticiones de esta zona, la gente se ríe de esas cosas hasta que las necesita. Hay un ritual viejo, de antes de que este pueblo tuviera nombre en los mapas, para cuando algo se suelta y no encuentra dónde asentarse. Nunca pensé que lo iba a usar de verdad. Pero bueno — tampoco pensé perder mi propia locura, así que ya estamos improvisando todos.'\""),
+    pEmpty(80),
+    voiceBox("\"A MITAD DEL RITUAL (cuando se da cuenta de que hace falta más que un círculo simple): '...Esperen. Esperen. Esto no está bien.' [se detiene a mitad del círculo, más incómodo que asustado] 'Yo hice esto antes, en chico, con mi abuela, para una vaca que no paraba de dar vueltas en el corral. Un círculo simple. Pero esto —' [señala el pueblo entero] '— no es una vaca dando vueltas. Acá no quedó nada de la alegría original, se fue entera. Necesito algo más: objetos que le recuerden a esto que la alegría también termina. Y no cualquier objeto — tiene que ser algo que todavía le importe a alguien, mientras dura el loop. Eso es lo que lo hace real.'\""),
+    pEmpty(80),
+    voiceBox("\"CÓMO SEÑALA A LOS TRES NPCs (lleva 50 años sentado en esa plaza, los conoce): 'Piensen en cosas que ya terminaron. Sella tiene guardado el hilo de la primera cometa que hizo con la madre — nunca voló, y ella no lo sabe, pero se nota que todavía le pesa. Donto guarda en algún estante la primera copa que sirvió el día que abrió la posada — no la usa, la limpia. Y el campanero, Emmer... esa campana rajada que no para de tocar. Apostaría a que ni él sabe por qué la guarda en vez de fundirla de nuevo. Consíganme algo de esos tres, y probamos otra vez.'\""),
+    pEmpty(80),
+    noteBox("SI INTENTAN INTIMIDARLO — STATS DE BARNABY","Es un civil, no un combatiente: CA 10 / PG 9 (2d8) / Velocidad 9 m. FUE 9 (-1), DES 11 (+0), CON 12 (+1), INT 15 (+2), SAB 16 (+3), CAR 13 (+1). Percepción pasiva 13 / Común. CD 16 para intimidarlo — alta a propósito: ya perdió su propia locura, no le queda mucho más que temer, así que no se quiebra fácil. Si falla la tirada del grupo: no se pone hostil, se pone más seco e irónico, y no da nada extra. Si la pasan: cede la misma información que daría por las buenas, pero se lo toma a mal — dejá de tratarlos con calidez, y puede comentarle a Sella o Donto que 'estos no vinieron a ayudar, vinieron a amenazar', restándoles buena voluntad inicial con el resto del pueblo.","FFF8E7",C.goldDeep),
+    pEmpty(140),
 
     ...npcBlock(
       "Sella Puntoviento",
@@ -257,6 +283,44 @@ function cap4() {
       ["MS-1E: Derrotar o ahuyentar a los Saqueadores de la Risa", "Secundaria (opcional)", "Botín completo (ver sección 11.2) + refuerza los cierres de Sella y Nira"],
       ["Salvar a los 4 NPCs sin perder ninguno", "Bonus de rol", "Inspiración para cada jugador en la próxima sesión"],
     ]),
+    pEmpty(140),
+
+    h2("4.9 Aftermath — El Día Después"),
+    p("Pensada para arrancar la sesión siguiente si el ritual se completó al final de la sesión anterior. No es solo una lista de recompensas — es la escena que le da cierre emocional a la zona. Usá las variantes según lo que efectivamente pasó en mesa."),
+    pEmpty(80),
+
+    h3("Escena General — El Pueblo Despierta"),
+    voiceBox("\"El cambio no es gradual. Es un instante: la euforia se corta como una cuerda tensa que se suelta de golpe. Sella deja de perseguir la cometa a mitad de zancada y se queda mirando el hilo cortado en sus manos, confundida. Donto, con una bandeja vacía en alto, la baja despacio, mirando la cocina como si la viera por primera vez. Los objetos que vibraban se quedan quietos. Alguien, en algún lugar de la plaza, empieza a llorar — no de tristeza, simplemente porque hace días que no siente nada de verdad y el cuerpo no sabe qué hacer con la emoción real. Otros se ríen, aturdidos, de golpes que se dieron días atrás y recién ahora duelen. El pueblo entero tarda varios minutos en volver a moverse con naturalidad.\""),
+    pEmpty(140),
+
+    h3("Barnaby — El Efecto Secundario que Nadie Esperaba"),
+    p("Volver todo a la normalidad tiene un costo pequeño y agridulce: Barnaby también vuelve a la normalidad — y su normalidad nunca fue la cordura. La lucidez que lo definió durante toda la zona no era su estado natural, era la ausencia forzada de algo (ver 'Cómo Sabe lo que Sabe', sección 4.4). Restaurada la Escama, ya no tiene nada de qué protegerse con la duda, y esa armadura deja de hacer falta."),
+    pEmpty(80),
+    voiceBox("\"Barnaby parpadea. Se ríe — una risa real, la primera de toda la zona, sorprendida de sí misma. 'Un momento. Un momento. ¿Saben qué? Tenía razón. El cielo ES de queso gouda. ¿Cómo no lo vi antes? ¡Miren esa nube, tiene forma de gouda añejo!' Lo dice con una alegría total, sin ironía, sin la precisión fría de antes. Si alguien le pregunta por lo que dijo hace un rato —el hombre del libro azul, su teoría de la duda— Barnaby ladea la cabeza, genuinamente intentando recordar. 'Dije... ¿eso dije? Sí, suena a algo que diría. Qué inteligente era yo hace un rato. Lástima que ya no me sirve de nada serlo.'\""),
+    pEmpty(80),
+    secretBox("QUÉ SIGNIFICA ESTO PARA EL DM: Barnaby no se vuelve inútil ni hostil — se vuelve exactamente lo que ya estaba anotado en su npcBlock (sección 4.4): su locura habitual, pero más consciente. Ya no es un narrador confiable en el sentido estricto (mezcla datos reales con delirios felices sin darse cuenta), pero sigue siendo cálido y sigue queriendo al grupo. Si vuelven a Cuerda-Floja más adelante, o lo encuentran después en Neverwinter vendiendo sus 'mapas del queso del cielo', la información útil sigue ahí — solo que codificada dentro de su nueva forma de ver el mundo, y el grupo tiene que aprender a traducirlo. Es un cambio de tono, no una pérdida de utilidad. Y hay algo genuinamente agridulce en esto: por un rato, Barnaby fue necesario, preciso, escuchado. Ahora vuelve a ser 'el loco del pueblo' — feliz de nuevo, pero también un poco más solo."),
+    pEmpty(140),
+
+    h3("Sella"),
+    p("Si el ancla del hilo sobrevivió intacta: llora de verdad por primera vez frente al grupo, sosteniendo el hilo cortado — el duelo por la cometa que nunca voló por fin tiene espacio para existir. Si la cometa fue destruida (ver 4.7, MS-1A): el llanto es el mismo, pero queda una pieza sin cerrar — lo menciona una vez, sin reproche, y sigue con su vida. En ambos casos, si el grupo hizo MS-1E y recuperó las cometas robadas, Sella las cuelga esa misma tarde, en silencio, una por una."),
+    pEmpty(80),
+
+    h3("Donto"),
+    p("Si la cocina se salvó sin daño: organiza esa misma noche una cena gratis para el grupo con lo poco que tiene, insiste en que no es opcional. Si se salvó pero la lista de clientes quedó dañada por el agua: agradece igual, pero lamenta en voz alta no poder leerle bien la mitad de los nombres — un pequeño costo narrativo, no mecánico. Si la cocina se quemó: la posada está cerrada por reparaciones; Donto igual sale a saludar al grupo, agradecido pero visiblemente cansado, y pide disculpas por no poder ofrecerles ni un té."),
+    pEmpty(80),
+
+    h3("Emmer"),
+    p("Si le contaron lo de la campana con delicadeza: aparece con ella ya reparada, colgada de nuevo en su lugar, y la toca una sola vez frente al grupo — suena, por fin, un tono limpio. Si se lo dijeron de golpe: sigue en su taller, la campana guardada, sin ganas de hablar del tema todavía; puede resolverse en una visita futura. Si nunca se resolvió el tema de la procedencia de la campana: simplemente agradece que lo hayan ayudado con el ritual y sigue con su vida, sin saber lo que casi descubren."),
+    pEmpty(80),
+
+    h3("Nira"),
+    p("Si confía plenamente en el grupo (diario completo, sin forzar la entrada incómoda): abre la puerta de par en par por primera vez en la zona, los invita a pasar, y les entrega las hierbas medicinales sin condiciones. Si se cerró un poco (leyeron la entrada incómoda frente a ella, o nunca hicieron MS-1E para recuperar su objeto sentimental): sigue agradecida por el ritual, pero habla desde el umbral, no desde adentro — la puerta se queda entreabierta, no de par en par."),
+    pEmpty(80),
+
+    h3("Cierre y Gancho"),
+    p("Antes de irse del pueblo, Logos hace un resumen breve y personal — el primero de la campaña con este tono: 'Registro cerrado: Cuerda-Floja. Nivel de euforia: normalizado. Nota adicional, fuera de protocolo: el sujeto Barnaby experimentó lo que los humanos llamarían alivio, seguido de inmediato por algo que no tengo clasificado. Sospecho que se acerca a la felicidad. No sé por qué eso me parece relevante registrarlo.' Si hicieron el encargo de Donto a Neverwinter (sección 4.7, MS-1B), ese es el gancho natural hacia la próxima escena — ya tienen un motivo concreto para salir del pueblo con destino a la ciudad."),
+    pEmpty(140),
+
     pageBreak(),
   ];
 }

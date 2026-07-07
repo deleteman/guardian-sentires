@@ -224,6 +224,40 @@ function cap6() {
       ["MS-3B: Encontrar el pendiente perdido", "Secundaria", "Habilita las Opciones A/C de la decisión moral"],
       ["MS-3C: Negociar con Dex Pedernales", "Secundaria", "Hasta 250 po (si la negociación tiene éxito)"],
     ]),
+    pEmpty(140),
+
+    h2("6.10 Aftermath — El Día Después"),
+    p("Esta es la zona con más ramificaciones de las cuatro — el aftermath tiene que reflejarlo. Elegí el bloque que corresponda a la opción moral que se jugó, no leas los tres."),
+    pEmpty(80),
+
+    h3("Escena General — La Forja Respira"),
+    voiceBox("\"El sonido cambia primero. El golpeteo constante, ese ritmo entre metal y grito lejano, se corta después del golpe final — y lo que queda es silencio real, no el silencio tenso de antes. La lava, sólida durante meses, fluye de nuevo por los canales de la forja con un resplandor parejo. El aire de Hotenow sigue caliente, pero es un calor de trabajo, no de tensión. Los cristales rojos que no se usaron dejan de vibrar en la Sala Secreta.\""),
+    pEmpty(140),
+
+    h3("Si jugaron la Opción A (la verdad + el pendiente)"),
+    p("Korrund se cuelga la réplica del pendiente y vuelve al yunque casi de inmediato — pero ahora golpea con propósito, forjando cosas reales otra vez. Si el grupo vuelve a visitarlo en sesiones futuras, siempre tiene algo terminado para mostrarles, sin que se lo pidan. Es la versión más funcional y estable de Korrund de las tres."),
+    pEmpty(80),
+
+    h3("Si jugaron la Opción B (sin decirle)"),
+    p("Korrund está en paz, pero hay algo perceptiblemente hueco en cómo habla — agradece al grupo sin poder explicar bien por qué se siente distinto. No pregunta por Brynna ni la menciona; el hilo se disolvió con la ira. Semanas después (podés jugarlo como una escena breve si el grupo vuelve a pasar por Hotenow), Korrund les hace una pregunta simple y desarmante: '¿Yo quería algo, antes? Siento que se me olvidó querer algo.' No hay forma de arreglar esto retroactivamente — es el costo permanente de esta opción."),
+    pEmpty(80),
+
+    h3("Si jugaron la Opción C (la tercera vía)"),
+    p("La escena más fuerte de la zona: Korrund llorando lava por primera vez en siglos, sosteniendo el soporte con el fragmento de cristal estabilizado. Lo consulta en momentos de calma —no en combate, no en trabajo— y cada vez que lo hace, se lo puede escuchar reírse bajito con la risa infantil de Brynna en loop lento. Es, de las tres, la única versión de Korrund que menciona a su hija por nombre sin que se lo pregunten."),
+    pEmpty(80),
+
+    h3("Si se activó el Reloj Narrativo (tardaron demasiado en volver)"),
+    warningBox("Esta es la variante más triste, y debería sentirse así: si el grupo dejó pasar 2-3 zonas completas sin resolver el arco de Korrund, solo quedan la Opción B forzada o el combate trágico (sección 6.5). En el aftermath, si fue combate: Korrund está muerto, la escama ya se liberó al caer él, y no hay objeto ni cierre — Logos lo registra como 'extracción por fuerza, resultado subóptimo' y no dice nada más al respecto, lo cual es, a su manera, un silencio elocuente. Si fue la Opción B tardía: igual que la versión normal de B, pero Korrund menciona, sin que se lo pregunten, que 'hace un tiempo alguien vino y no volvió' — una herida extra, autoinfligida por la demora, que el grupo puede notar o no."),
+    pEmpty(80),
+
+    h3("Rhen y Tova"),
+    p("Si la evacuación de Rhen (MS-3A) se completó, los mineros ya están instalados más abajo en la montaña, y Rhen mismo organiza un pequeño agasajo tosco para el grupo — cerveza tibia, pero servida con genuino orgullo de haber terminado algo. Si nunca se completó, los mineros siguen en el campamento base, ahora simplemente cansados en vez de atrapados en loop — sin urgencia, pero sin resolver. Tova, si Korrund terminó en la Opción A o C, es aceptada como aprendiz de inmediato; en la B, Korrund accede pero de forma más mecánica, sin la calidez que la escena podría haber tenido."),
+    pEmpty(80),
+
+    h3("Cierre y Gancho"),
+    p("Logos, en cualquier variante, termina con la traducción del yunque (sección 6.7) durante el viaje de salida — el nombre 'Mnemós' aparece por primera vez, sin que Logos entienda todavía su propio vínculo con él. Es el gancho automático hacia la siguiente zona, sin importar qué haya pasado con Korrund."),
+    pEmpty(140),
+
     pageBreak(),
   ];
 }

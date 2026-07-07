@@ -159,6 +159,40 @@ function cap5() {
       ["MS-2C: Rescatar a la familia Tress", "Secundaria", "Mapa + cristal de purificación de agua"],
       ["Completar la zona usando solo la Opción A (escuchar)", "Bonus de rol", "El Cristal del Recuerdo de Wren (Inspiración reutilizable 1x por sesión)"],
     ]),
+    pEmpty(140),
+
+    h2("5.9 Aftermath — El Día Después"),
+    p("Pensada para arrancar la sesión siguiente si la Escama se liberó al final de la sesión anterior. El cambio acá es físico antes que emocional — dejá que se note en el cuerpo del pantano, no solo en las caras de la gente."),
+    pEmpty(80),
+
+    h3("Escena General — El Pantano se Aliviana"),
+    voiceBox("\"El agua es lo primero que cambia. Deja de resistirse a cada paso — de golpe se mueve como agua normal, casi con alivio. Las cabañas de Grauwater empiezan a drenarse solas, como si el pantano mismo hubiera estado conteniendo la respiración. El aire deja de oler a papel mojado. En el Árbol de los Cuellos, las cintas y cuerdas se mueven con una brisa que no estaba ahí hace un minuto — la primera brisa real que pasa por este lugar en mucho tiempo.\""),
+    pEmpty(140),
+
+    h3("Si eligieron la Opción A (escuchar)"),
+    p("El pueblo entero, sin que nadie lo organice al principio, se junta esa noche alrededor de una fogata. No es una celebración — es un duelo colectivo, el primero que Grauwater puede permitirse en años. Marga lidera sin decir una palabra, solo tejiendo despacio mientras los demás hablan de sus propios muertos. Es incómodo y sanador a la vez. Si el grupo se queda, son bienvenidos junto al fuego, pero nadie los obliga a hablar."),
+    pEmpty(80),
+
+    h3("Si eligieron la Opción B (disipar)"),
+    p("El alivio llega igual, pero sin catarsis — más parecido a que se corte una fiebre que a un cierre real. Marga organiza la limpieza de inmediato, práctica y eficiente, pero hay una frialdad de fondo que no estaba en la Opción A. Nadie menciona a la Vieja Raíz por su nombre esa noche, porque nadie llegó a saber que se llamaba Wren. Logos, si se le pregunta, repite su propia frase de antes casi como si le costara: 'Pérdida de datos permanente. Sigo sin tener una categoría mejor para eso.'"),
+    pEmpty(140),
+
+    h3("Marga"),
+    p("En cualquiera de las dos opciones, Marga vuelve a moverse y a organizar — es lo que siempre supo hacer. Si el grupo hizo MS-2A (devolver las cuerdas), la trata con calidez genuina desde el primer momento y comparte sin dudar lo que sabe del 'Geógrafo Azul'. Si no lo hicieron, sigue agradecida pero más reservada — la información sale igual, solo que cuesta un poco más sacarla."),
+    pEmpty(80),
+
+    h3("Goro"),
+    p("Si el grupo se ganó su confianza durante la zona, Goro aparece una última vez antes de que se vayan — no para despedirse con ceremonia, sino para dejarles, en silencio, una copia a mano de sus mapas del pantano. Es su forma de decir que pueden volver. No se ofrece como aliado recurrente ni pide nada a cambio; sigue siendo del pantano, no del grupo. Si nunca conectaron con él más allá de lo mínimo, simplemente desaparece de vuelta hacia el interior del pantano sin despedirse — sigue ahí, pero no busca al grupo."),
+    pEmpty(80),
+
+    h3("La Familia Tress"),
+    p("Si fueron rescatados durante la zona (MS-2C): ya están instalados en una cabaña seca, y el chico corre a mostrarle al grupo dónde clavó el mapa del tesoro en la pared, como un trofeo. Si no fueron rescatados antes y quedaron atrapados hasta la restauración general: salen del agua por su cuenta, desorientados pero ilesos — el grupo no pierde la escama ni el hito, pero se pierde el vínculo personal con el chico y el mapa nunca se entrega (una pérdida narrativa menor, no mecánica)."),
+    pEmpty(80),
+
+    h3("Cierre y Gancho"),
+    p("Logos cierra el registro de la zona con un tono distinto al de Cuerda-Floja — más lento, más pensado: 'Registro cerrado: Pantano de los Muertos. Método de resolución: [Opción A / Opción B]. Nota personal, fuera de protocolo: estoy empezando a notar un patrón. El sujeto conocido como el Coleccionista visita, mide, y se va. Y en cada lugar, algo de él se queda. No sé todavía qué hacer con esa observación.' Si el grupo tiene los pergaminos de Goro traducidos (MS-2B), ese es el gancho hacia el frasco de cristal negro que van a reencontrar mucho más adelante en el Plano del Archivo."),
+    pEmpty(140),
+
     pageBreak(),
   ];
 }
