@@ -51,9 +51,19 @@ function cap5() {
       ["Religi\u00f3n para reconocer las cuerdas como ofrendas de duelo","12","Entender esto da Ventaja en la interacci\u00f3n con el esp\u00edritu"],
     ]),
     pEmpty(80),
+    noteBox("ESTO ES AUTOM\u00c1TICO \u2014 NO LO DEJES PASAR","La primera vez que el grupo se acerca al \u00c1rbol de los Cuellos, ocurre lo siguiente sin tirada de por medio. Es el gancho de MS-2A (secci\u00f3n 5.7) y tiene que verse, no solo escucharse de o\u00eddas.","FFF0F0",C.redDark),
+    pEmpty(80),
+    voiceBox("\"Un golpe de viento pesado sacude las ramas m\u00e1s bajas \u2014 y una cinta gris, ya deshilachada por los a\u00f1os, se suelta y cae. Toca el agua densa del pantano y, por medio segundo, algo pasa: las letras bordadas se iluminan d\u00e9bilmente, como si alguien las leyera en voz alta desde muy lejos \u2014 una risa corta, la silueta borrosa de alguien saludando \u2014 y despu\u00e9s nada. La cinta se deshace en el agua como si nunca hubiera estado ah\u00ed. No queda ni un hilo. Logos, tras un silencio: 'Objeto perdido. Sin registro previo del contenido. No hay forma de recuperar lo que se acaba de borrar.'\""),
+    pEmpty(80),
+    p("El mensaje tiene que quedar claro sin necesidad de explicarlo: lo que toca esta agua, se pierde para siempre. Si alguien investiga las cintas que quedan (Investigaci\u00f3n CD 13, ver MS-2A en 5.7), va a encontrar 3 que todav\u00eda est\u00e1n sueltas o a punto de soltarse \u2014 y esta vez el grupo ya sabe exactamente qu\u00e9 pasa si no hacen nada."),
+    pEmpty(140),
 
     h3("La Caba\u00f1a del Rastreador Mudo"),
     p("Una caba\u00f1a en un mont\u00edculo seco, bien escondida (Percepci\u00f3n CD 15 para encontrarla). Dentro hay mapas detallados del pantano y provisiones para 2 semanas. El rastreador (Goro, ver NPC) vive aqu\u00ed y es la \u00fanica persona que se mueve libremente por la zona."),
+    pEmpty(140),
+
+    h3("La Choza Abandonada de la Curandera"),
+    p("Escondida entre ra\u00edces altas, a suficiente distancia del pueblo como para no ser obvia (Percepci\u00f3n CD 13 para encontrarla mientras exploran el pantano). Adentro, todo qued\u00f3 congelado en el tiempo: frascos de hierbas secas, un mortero con restos de un preparado que nunca se termin\u00f3 de moler, y un peque\u00f1o retrato tallado en madera de una mujer de mediana edad con las manos manchadas de tinturas. Debajo, grabado con la misma letra que las cuerdas del \u00c1rbol: 'Yenna'. Quien busque con cuidado (Investigaci\u00f3n CD 12) tambi\u00e9n encuentra una carta sin enviar, dirigida a 'mi mejor alumna' \u2014 sin firma, pero cualquiera que ya conozca a Marga reconoce su letra de juventud en los m\u00e1rgenes, practicando f\u00f3rmulas."),
     pEmpty(140),
 
     h2("5.4 NPCs de la Zona"),
@@ -122,21 +132,20 @@ function cap5() {
     h2("5.7 Misiones Secundarias de la Zona"),
 
     h3("MS-2A: Las Cuerdas del Árbol"),
-    p("El Árbol de los Cuellos tiene 47 cuerdas y cintas atadas. Si alguien las examina (Investigación CD 13), encuentra que 3 de ellas tienen nombres y fechas — son recuerdos de personas específicas que murieron cerca del pantano:"),
+    p("El gancho de esta misión ya pasó en la sección 5.3, cuando el grupo vio una cinta anónima disolverse al tocar el agua. Esto es la continuación directa: el Árbol de los Cuellos tiene 47 cuerdas y cintas atadas, y si alguien las examina con ese antecedente fresco (Investigación CD 13), encuentra 3 que todavía están enteras pero sueltas o a medio caer — con nombres y fechas legibles. Sacarlas del árbol antes de que se suelten solas no requiere tirada: alcanza con que alguien se acerque y las agarre, ahora que saben lo que está en juego."),
+    pEmpty(80),
+    voiceBox("\"De vuelta en Grauwater, si el grupo menciona lo que vio en el árbol (o si Marga simplemente los ve volver mojados y afectados — ella nota esas cosas, aunque no levante la vista), deja el tejido en las manos, quieta, y dice, despacio, como todo lo que dice ahora: 'El agua... se lo lleva todo. Lo que se cae... no vuelve.' Silencio. Luego: 'Si encuentran algo así... protéjanlo. Aunque no sepan de quién es.'\""),
+    pEmpty(80),
+    p("Esa es toda la instrucción que da — no pide que las devuelvan a nadie en particular, solo que no dejen que el agua se las lleve. Encontrar de quién es cada una y entregarla es una decisión del grupo, no un pedido explícito de Marga:"),
     pEmpty(80),
     infoTable([
-      ["Cuerda","Inscripción","Familia que la reconoce"],
-      ["Cinta roja deshilachada","'Aldric Tresfondo — se ahogó buscando a su perro, año 1481'","Los Tress (la familia sumergida de MS-2C — Aldric era su abuelo)"],
-      ["Cuerda de cuero trenzado","'Yenna la Curandera — su último paciente fue el pantano mismo'","Marga reconoce el nombre: fue su maestra de herbología"],
-      ["Hilo azul casi podrido","'Para el niño que no llegó a tener nombre'","Una de las familias de Grauwater (los Hask) — un hijo que perdieron al nacer hace 2 años"],
-    ], 2400, 4200, 3760),
+      ["Cuerda","Inscripción","Cómo se descubre el destino"],
+      ["Cinta roja deshilachada","'Aldric Tresfondo — se ahogó buscando a su perro, año 1481'","En la cabaña hundida de MS-2C hay una vieja lápida de madera apoyada contra la pared exterior con el mismo apellido tallado (automático al explorar la cabaña); o los propios Tresfondo la reconocen al instante una vez rescatados"],
+      ["Cuerda de cuero trenzado","'Yenna la Curandera — su último paciente fue el pantano mismo'","Marga reconoce el nombre de inmediato (fue su maestra); o el grupo encuentra su choza abandonada en el pantano (sección 5.3) con un retrato tallado que confirma quién era, sin necesidad de hablar con Marga primero"],
+      ["Hilo azul casi podrido","'Para el niño que no llegó a tener nombre'","En la cabaña de los Hask (una de las 4 familias de Grauwater), Percepción o Investigación CD 12 nota una cuna tallada a mano, vacía, guardada en un rincón — nadie en la familia lo va a mencionar en voz alta a menos que se les pregunte directamente"],
+    ], 2400, 3600, 3360),
     pEmpty(80),
-    p("Devolver el contexto de estas cuerdas a las familias correctas (un pequeño puzzle de investigar quién es quién, preguntando en la aldea) desbloquea la confianza de Marga y reduce la CD de todos los encuentros sociales en el pantano en 2 durante el resto de la sesión."),
-    pEmpty(80),
-    cdBox([
-      ["Investigación para examinar las cuerdas","13","Solo ven cuerdas viejas"],
-      ["Historia o Persuasión para conectar los nombres con las familias correctas","11","Necesitan preguntarle a Marga (un paso más, pero igual de efectivo)"],
-    ]),
+    p("Entregar cada cuerda a su destino correcto (no hace falta encontrar las 3 para que cuente algo) suma confianza de Marga: con las 3 devueltas, la CD de todos los encuentros sociales en el pantano baja en 2 durante el resto de la sesión; con 1 o 2, la reducción es de 1. Devolverlas no es solo información — es un gesto físico, y Grauwater lo nota."),
     pEmpty(80),
 
     h3("MS-2B: Los Pergaminos de Goro"),
@@ -148,15 +157,15 @@ function cap5() {
     pEmpty(80),
 
     h3("MS-2C: La Familia Sumergida"),
-    p("Una de las cabañas de Grauwater tiene el piso completamente bajo el agua — la familia de adentro (los Tress, 2 adultos y 1 niño, descendientes del Aldric mencionado en MS-2A) está sentada en los muebles con el agua hasta el pecho. Están vivos pero en estado de melancolía profunda. Rescatarlos requiere entrar al agua densa (Constitución CD 15) y transportarlos a una cabaña seca. El niño, una vez a salvo, entrega al grupo un 'mapa del tesoro' que hizo antes del caos — marca una caja enterrada cerca del pantano con un cristal de agua que actúa como filtro de purificación mágica (utilidad práctica en zonas de agua contaminada)."),
+    p("Una de las cabañas de Grauwater tiene el piso completamente bajo el agua — la familia de adentro (los Tresfondo, 2 adultos y 1 niño, descendientes del Aldric mencionado en MS-2A) está sentada en los muebles con el agua hasta el pecho. Contra la pared exterior de la cabaña hay una vieja lápida de madera, medio hundida, con el apellido 'Tresfondo' todavía legible — conecta directo con la cinta roja del Árbol (MS-2A) para quien la note. Están vivos pero en estado de melancolía profunda. Rescatarlos requiere entrar al agua densa (Constitución CD 15) y transportarlos a una cabaña seca. El niño, una vez a salvo, entrega al grupo un 'mapa del tesoro' que hizo antes del caos — marca una caja enterrada cerca del pantano con un cristal de agua que actúa como filtro de purificación mágica (utilidad práctica en zonas de agua contaminada)."),
     pEmpty(140),
 
     h2("5.8 Recompensas de la Zona"),
     xpBox([
       ["Liberar a la Vieja Raíz (Opción A o B)", "Hito", "Sube a nivel 7 (ver sección 1.6)"],
-      ["MS-2A: Devolver las 3 cuerdas a sus familias", "Secundaria", "Confianza de Marga + reducción de CD social"],
+      ["MS-2A: Devolver las cuerdas a sus destinos", "Secundaria", "Confianza de Marga escalonada: -1 CD social (1-2 devueltas) o -2 CD social (las 3 devueltas)"],
       ["MS-2B: Traducir los pergaminos de Goro", "Secundaria", "Pista anticipada sobre el frasco de cristal negro"],
-      ["MS-2C: Rescatar a la familia Tress", "Secundaria", "Mapa + cristal de purificación de agua"],
+      ["MS-2C: Rescatar a la familia Tresfondo", "Secundaria", "Mapa + cristal de purificación de agua"],
       ["Completar la zona usando solo la Opción A (escuchar)", "Bonus de rol", "El Cristal del Recuerdo de Wren (Inspiración reutilizable 1x por sesión)"],
     ]),
     pEmpty(140),
@@ -185,7 +194,7 @@ function cap5() {
     p("Si el grupo se ganó su confianza durante la zona, Goro aparece una última vez antes de que se vayan — no para despedirse con ceremonia, sino para dejarles, en silencio, una copia a mano de sus mapas del pantano. Es su forma de decir que pueden volver. No se ofrece como aliado recurrente ni pide nada a cambio; sigue siendo del pantano, no del grupo. Si nunca conectaron con él más allá de lo mínimo, simplemente desaparece de vuelta hacia el interior del pantano sin despedirse — sigue ahí, pero no busca al grupo."),
     pEmpty(80),
 
-    h3("La Familia Tress"),
+    h3("La Familia Tresfondo"),
     p("Si fueron rescatados durante la zona (MS-2C): ya están instalados en una cabaña seca, y el chico corre a mostrarle al grupo dónde clavó el mapa del tesoro en la pared, como un trofeo. Si no fueron rescatados antes y quedaron atrapados hasta la restauración general: salen del agua por su cuenta, desorientados pero ilesos — el grupo no pierde la escama ni el hito, pero se pierde el vínculo personal con el chico y el mapa nunca se entrega (una pérdida narrativa menor, no mecánica)."),
     pEmpty(80),
 
