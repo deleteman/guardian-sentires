@@ -189,6 +189,14 @@ function cap5() {
     p("Si fueron rescatados durante la zona (MS-2C): ya están instalados en una cabaña seca, y el chico corre a mostrarle al grupo dónde clavó el mapa del tesoro en la pared, como un trofeo. Si no fueron rescatados antes y quedaron atrapados hasta la restauración general: salen del agua por su cuenta, desorientados pero ilesos — el grupo no pierde la escama ni el hito, pero se pierde el vínculo personal con el chico y el mapa nunca se entrega (una pérdida narrativa menor, no mecánica)."),
     pEmpty(80),
 
+    h3("El Sepulturero Anegado (dungeon obligatorio — Las Criptas Anegadas)"),
+    p("El destino del Sepulturero se suma al resto del Aftermath como una tercera capa, aparte de la Opción A/B de la superficie: cómo cerró la zona bajo el agua importa tanto como cómo cerró arriba."),
+    pEmpty(80),
+    voiceBox("\"Si lo dejaron descansar (rasgo Descansad ya): esa misma noche, sin que nadie en el pueblo sepa bien por qué, el agua de los canales corre más silenciosa. Marga, si se le cuenta lo que pasó en la tumba, deja de tejer un segundo — reconoce el nombre en la historia oral de su abuela: 'el primer enterrador, el que nunca dejó su puesto'. No dice mucho más, pero esa noche deja una flor sobre el agua, cerca de donde empieza el camino hundido hacia las Criptas. Es el mismo duelo de la Opción A, una capa más abajo.\""),
+    pEmpty(80),
+    voiceBox("\"Si lo vencieron en combate: la escama y el tesoro salen igual, pero el agua de las Criptas queda inquieta unos días — algún aldeano jura ver una figura encorvada con una pala moviéndose entre los juncos al atardecer, aunque nunca se acerca ni hace daño. No es un gancho mecánico ni un reloj narrativo, solo una nota de color: el pantano no quedó tan en paz como podría haber quedado. La Pala del Descanso, coherente con esto, nunca aparece en el loot — el arma se hunde con él.\""),
+    pEmpty(140),
+
     h3("Cierre y Gancho"),
     p("Logos cierra el registro de la zona con un tono distinto al de Cuerda-Floja — más lento, más pensado: 'Registro cerrado: Pantano de los Muertos. Método de resolución: [Opción A / Opción B]. Nota personal, fuera de protocolo: estoy empezando a notar un patrón. El sujeto conocido como el Coleccionista visita, mide, y se va. Y en cada lugar, algo de él se queda. No sé todavía qué hacer con esa observación.' Si el grupo tiene los pergaminos de Goro traducidos (MS-2B), ese es el gancho hacia el frasco de cristal negro que van a reencontrar mucho más adelante en el Plano del Archivo."),
     pEmpty(140),
