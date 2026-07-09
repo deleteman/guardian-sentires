@@ -38,6 +38,9 @@ function cap9() {
       "De cada 4-5 'objetos mágicos' en su puesto, 1 es real (a discreción del DM). Un chequeo de Arcanos CD 15 distingue lo real de lo decorativo antes de comprar — sin la tirada, es una apuesta. Buen lugar para vender objetos raros que el grupo no necesite, o para un capricho ocasional",
       "Ah, ¿esto? Esto NO es para cualquiera. Pero para ustedes... bueno. Hablemos"
     ),
+    pEmpty(80),
+    secretBox("EL OBJETO REAL DE KESTREL — EL GUANTELETE CALLADO: entre sus baratijas hay, sin que ella lo sepa, un guante de cuero curtido y bronce viejo (ficha completa en Cap. 12 secreto, sección 12.11). Lo consiguió de un comprador de paso que 'necesitaba plata rápido' — no tiene idea de que es un fragmento de Tahel, el Unicornio de los Vados, ni de que hay gente buscándolo. Lo vende por 40 po, convencida de que es decorativo. Si el grupo lo compra y luego alguien pregunta por su procedencia, ella describe al comprador de paso sin saber que era, en realidad, un agente de la Guardia de Ámbar (Cap. 12, sección 12.12) — un hilo que se puede tirar hacia atrás si el grupo investiga."),
+    pEmpty(80),
     pEmpty(140),
 
     h3("El Anticuario y la Moneda Antigua"),
@@ -170,6 +173,20 @@ function cap9() {
       ["La revelaci\u00f3n","El Coleccionista lleva siglos haciendo esto. Ha vaciado guardianes antes. La Costa de la Espada no es un experimento \u2014 es el m\u00e1s reciente de varios intentos"],
       ["Impacto en el cl\u00edmax","Si el grupo encuentra esta sala ANTES de llegar a la Sala 5 (Mnem\u00f3s), pueden usar la informaci\u00f3n inmediatamente en la conversaci\u00f3n del Final B o C: '\u00bfCu\u00e1ntos guardianes vaciaste antes de Chromatus? \u00bfFuncion\u00f3 alguna vez?' Esto quiebra a Mnem\u00f3s m\u00e1s r\u00e1pido que cualquier otro argumento \u2014 reduce la CD efectiva de convencimiento en la secci\u00f3n 8.8"],
     ]),
+    pEmpty(80),
+    secretBox("LOS NOMBRES, PARA VOS: el grifo es Velnaris (el Asombro) y el unicornio es Tahel (la Confianza) \u2014 ver la tabla completa en 2.6. 'Algo sin nombre en ning\u00fan libro de Logos' es el Guardi\u00e1n de la Esperanza (Cap. 12, secci\u00f3n 12.8.1) \u2014 deliberadamente sin resolver, no lo confirmes en mesa."),
+    pEmpty(80),
+    secretBox("RESONANCIA \u2014 SI EL GRUPO LLEVA UN \u00cdTEM DE GUARDI\u00c1N (Cap. 12, secci\u00f3n 12.11): si entran a esta sala con la M\u00e1scara, el Guantelete Callado o el Brazal sin Miedo puestos, las escamas preservadas reaccionan \u2014 brillan un segundo, como reconociendo a los suyos. Si el fragmento que llevan ya despert\u00f3 consciente (Etapa 5 de cualquiera), quien lo porta siente algo parecido al duelo: por un instante, sabe que no est\u00e1 solo en lo que le pas\u00f3. Mec\u00e1nicamente: el portador recupera todos los usos gastados de la habilidad consciente de su \u00edtem (Zona de Verdad, Ayuda o Heroísmo), una sola vez, como si acabara de hacer un Descanso Largo. Especialmente fuerte si llevan el Guantelete Callado, que es el \u00fanico de los tres que efectivamente pertenece a esta colecci\u00f3n (Tahel) \u2014 ah\u00ed pod\u00e9s narrar un reconocimiento m\u00e1s directo, casi como si la sala 'notara' que falta una pieza."),
+    pageBreak(),
+
+    h2("9.5 La Guardia de \u00c1mbar en Neverwinter"),
+    p("Secuencia con causalidad, no eventos sueltos \u2014 cada paso es la raz\u00f3n del siguiente. Usala si el grupo ya mostr\u00f3 en p\u00fablico el poder de alguno de los \u00edtems de guardi\u00e1n (Cap. 12, secci\u00f3n 12.11), o si Kestrel coment\u00f3 sin mala intenci\u00f3n sobre 'el comprador raro' del Guantelete."),
+    pEmpty(80),
+    h3("Paso 1 \u2014 La Vigilancia de Sable Wren"),
+    p("Sable Wren (ficha en Cap. 11) sigue al grupo de lejos durante uno o dos d\u00edas. No es una emboscada \u2014 es notar que los est\u00e1n vigilando (Percepci\u00f3n pasiva vs su Sigilo) y decidir qu\u00e9 hacer con eso. Si lo confrontan, prefiere hablar y retirarse antes que pelear; si lo acorralan de verdad, ah\u00ed sale el combate. Esta vigilancia es lo que le da a Grendal Ashwood la informaci\u00f3n para el paso siguiente."),
+    pEmpty(80),
+    h3("Paso 2 \u2014 El Ataque Nocturno sobre Hola"),
+    p("Grendal Ashwood (solo, o con 1 Buscador de \u00c1mbar de apoyo) intenta la Extracci\u00f3n Forzada sobre Hola mientras duerme, en su casa o donde el grupo est\u00e9 parando esa noche. Como ya est\u00e1 en las reglas del \u00edtem (Cap. 12, secci\u00f3n 12.11), la m\u00e1scara NO sale \u2014 esto no es 'le roban la m\u00e1scara', es 'confirman en carne propia que no pueden arranc\u00e1rsela as\u00ed', con da\u00f1o real y un buen susto de por medio para Hola. Si el golem est\u00e1 haciendo guardia, Grendal necesita un plan para evitarlo o distraerlo un momento \u2014 queda abierto seg\u00fan c\u00f3mo arm\u00e9s la escena en mesa. Si lo hacen huir, esto no termina el hilo: ver la emboscada de revancha en Cap. 11, secci\u00f3n 11.2."),
     pageBreak(),
   ];
 }

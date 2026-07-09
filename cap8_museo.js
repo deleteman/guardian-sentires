@@ -35,6 +35,9 @@ function cap8() {
     secretBox("Esta leyenda es la verdad de Mnemós contada como cuento de viejas. El grupo no sabe todavía que el 'bibliotecario' es el Coleccionista que persiguen. Pero la frase clave —'entre los libros que nadie lee', 'una biblioteca tan vieja que ya nadie la visita'— es la pista que conecta con el mecanismo de apertura del portal. Un jugador atento la atará con la hipótesis de Logos del paso 3. Logos, al oír la leyenda, comenta: 'Narrativa folclórica. Precisión estimada: baja. Pero el patrón coincide con mi hipótesis en un 71%. Recomiendo probar.'"),
     pEmpty(140),
 
+        noteBox("SI EL GRUPO LLEVA UN \u00cdTEM DE GUARDI\u00c1N (M\u00e1scara, Guantelete Callado o Brazal sin Miedo \u2014 Cap. 12 secreto, secci\u00f3n 12.11)","Justo antes de cruzar el portal, agreg\u00e1 este beat corto: Logos, que ya viene recuperando fragmentos de memoria sobre su creador de forma gradual (ver secretBox de m\u00e1s abajo), escanea el \u00edtem sin que nadie se lo pida y tiene un pico de reconocimiento. No explica nada todav\u00eda \u2014 mantiene el mismo ritmo gradual que el resto de este cap\u00edtulo. Logos: 'Firma residual detectada. Arquitectura m\u00e1gica desconocida, pero... familiar. No tengo una palabra mejor que esa. Familiar.' Es el primer indicio de que lo que llevan puesto tiene que ver con lo que est\u00e1n a punto de encontrar del otro lado.","EEF6FF",C.tealDark),
+    pEmpty(140),
+
     h2("8.2 C\u00f3mo se Abre el Portal \u2014 Mec\u00e1nica"),
     p("El portal no se abre con magia est\u00e1ndar de viaje planar. Requiere un ritual espec\u00edfico que el grupo deduce con ayuda de Logos, combinando lo aprendido en las cuatro zonas anteriores."),
     pEmpty(80),
