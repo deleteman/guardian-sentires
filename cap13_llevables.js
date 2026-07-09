@@ -59,17 +59,16 @@ function cap13() {
     ], 1600, 1600, 4200, 2960),
     pEmpty(140),
 
-    h2("13.3 Goro el Rastreador Mudo — Explorador (Pantanero)"),
-    p("El habitante secreto del Pantano de los Muertos que protege la zona y documenta sus cambios. No habla —se comunica con señas y dibujos— pero eso no le impide acompañar al grupo si decide que ya no hace falta quedarse."),
+    h2("13.3 Goro el Rastreador — Explorador (Pantanero)"),
+    p("El habitante secreto del Pantano de los Muertos que protege la zona y documenta sus cambios. Habla poco y bajo, pero habla — y eso no le impide acompañar al grupo si decide que ya no hace falta quedarse."),
     pEmpty(80),
     infoTable([
       ["Campo","Detalle"],
       ["Raza / Clase","Humano (o la raza que prefieras darle, no se especificó en su ficha original) / Explorador (Ranger), subclase Vigilante de Horizonte o Maestro de Bestias"],
       ["Nivel de entrada","Se une en el Pantano — grupo nivel 6-7, así que Goro entra en nivel 4-5 según el momento exacto"],
-      ["Por qué se uniría (su POV)","Goro lleva años documentando y protegiendo el pantano en soledad. Si el grupo resuelve bien la zona (especialmente si liberan a la Vieja Raíz con la Opción A, mostrando que entienden el peso de lo que custodia), Goro puede sentir que el pantano, por primera vez, está en paz — y que su trabajo ahí, por ahora, está hecho. No lo dice con palabras: simplemente empieza a empacar su fardo y hace un gesto de pregunta hacia la salida. Es una decisión silenciosa pero clara. Si el grupo trató el pantano con descuido o prisa, prefiere quedarse — todavía hay algo que vigilar"],
-      ["Personalidad para quien lo juegue","Observador, calmado, comunica todo con gestos precisos y dibujos rápidos cuando hace falta más detalle. El jugador que lo controle no necesita inventar diálogo — de hecho, jugarlo BIEN significa comunicarse con el grupo principalmente por descripciones de gestos, lo cual le da una textura de juego distinta y interesante"],
+      ["Por qué se uniría (su POV)","Goro lleva años documentando y protegiendo el pantano en soledad. Si el grupo resuelve bien la zona (especialmente si liberan a la Vieja Raíz con la Opción A, mostrando que entienden el peso de lo que custodia), Goro puede sentir que el pantano, por primera vez, está en paz — y que su trabajo ahí, por ahora, está hecho. Lo dice sin vueltas mientras empieza a empacar su fardo: 'El pantano está en paz. Yo también puedo estarlo, por un tiempo. Voy con ustedes.' Si el grupo trató el pantano con descuido o prisa, prefiere quedarse — todavía hay algo que vigilar"],
+      ["Personalidad para quien lo juegue","Observador, calmado, de pocas palabras pero no mudo — cuando habla, va directo al punto, sin vueltas ni explicaciones de más. El jugador que lo controle puede apoyarse en gestos y silencios para el color, pero no tiene que evitar el diálogo: Goro simplemente dice menos que el resto, no nada"],
       ["Cómo pelea","Sigiloso y de precisión a distancia, fuerte en terreno difícil (agua, pantano, bosque). Excelente explorador y rastreador fuera de combate también — puede dar Ventaja en tiradas de Supervivencia o Sigilo del grupo en terreno salvaje"],
-      ["Nota de mesa sobre su mudez","Si el jugador que lo controla prefiere, puede 'hablar' en mesa describiendo lo que Goro gesticula, en vez de quedarse en silencio total — lo importante es preservar que el personaje no usa palabras, no que el jugador deje de participar verbalmente en la mesa"],
     ]),
     pEmpty(80),
     infoTable([

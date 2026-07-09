@@ -84,7 +84,7 @@ function cap0() {
     bullet("12.1-12.10 Ozyr Thane / Lord Veil, La Siembra, El Telar, Pistas, Red de Influencia, Las 6 Pistas, Por Qué Todo le Sirve, Misterios, Iarno el Experimento Recurrente, Semilla para Campaña Futura", false, C.grayMid),
     pEmpty(60),
     bullet("13. NPCs Llevables"),
-    bullet("13.1 Tova la Aprendiz | 13.2 Sylveth | 13.3 Goro el Rastreador Mudo | 13.4 Notas de Mesa", false, C.grayMid),
+    bullet("13.1 Tova la Aprendiz | 13.2 Sylveth | 13.3 Goro el Rastreador | 13.4 Notas de Mesa", false, C.grayMid),
     pEmpty(60),
     bullet("14. Arcos Personales de los Personajes Jugadores"),
     bullet("14.1 El Arco de Hola — La Casa, el Hermanastro, el Padre", false, C.grayMid),

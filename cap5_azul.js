@@ -43,6 +43,12 @@ function cap5() {
     ]),
     pEmpty(80),
 
+    h3("La Caba\u00f1a de los Hask"),
+    p("Una de las seis caba\u00f1as de Grauwater, m\u00e1s cerrada sobre s\u00ed misma que las dem\u00e1s \u2014 postigos apenas entornados, como si no quisieran dejar entrar ni un poco m\u00e1s de luz de la que ya hay. Adentro viven Tobar y Ressa Hask, sentados uno junto al otro sin hablar, mirando el agua igual que el resto del pueblo. Hace dos a\u00f1os perdieron un hijo al nacer; desde que lleg\u00f3 la Niebla, ese duelo viejo volvi\u00f3 a pesar como si fuera reciente. Preguntarles directamente por el ni\u00f1o solo consigue un monos\u00edlabo antes de que vuelvan a mirar el agua \u2014 no es algo que ofrezcan por su cuenta."),
+    pEmpty(80),
+    p("Percepci\u00f3n o Investigaci\u00f3n CD 12 nota, en un rinc\u00f3n apartado, una cuna tallada a mano que nunca lleg\u00f3 a usarse \u2014 todav\u00eda tiene el barniz sin gastar (ver MS-2A, secci\u00f3n 5.7, para lo que esto conecta)."),
+    pEmpty(140),
+
     h3("El \u00c1rbol de los Cuellos \u2014 El Punto Central"),
     p("Un \u00e1rbol muerto de 15 metros de altura en el centro del pantano, rodeado de agua hasta los hombros. Su nombre viene de las cuerdas y cintas que la gente ata en sus ramas \u2014 cada una es un recuerdo de alguien que muri\u00f3 cerca. Aqu\u00ed vive el esp\u00edritu."),
     pEmpty(80),
@@ -58,7 +64,7 @@ function cap5() {
     p("El mensaje tiene que quedar claro sin necesidad de explicarlo: lo que toca esta agua, se pierde para siempre. Si alguien investiga las cintas que quedan (Investigaci\u00f3n CD 13, ver MS-2A en 5.7), va a encontrar 3 que todav\u00eda est\u00e1n sueltas o a punto de soltarse \u2014 y esta vez el grupo ya sabe exactamente qu\u00e9 pasa si no hacen nada."),
     pEmpty(140),
 
-    h3("La Caba\u00f1a del Rastreador Mudo"),
+    h3("La Caba\u00f1a del Rastreador"),
     p("Una caba\u00f1a en un mont\u00edculo seco, bien escondida (Percepci\u00f3n CD 15 para encontrarla). Dentro hay mapas detallados del pantano y provisiones para 2 semanas. El rastreador (Goro, ver NPC) vive aqu\u00ed y es la \u00fanica persona que se mueve libremente por la zona."),
     pEmpty(140),
 
@@ -81,13 +87,13 @@ function cap5() {
     ),
 
     ...npcBlock(
-      "Goro el Rastreador Mudo",
+      "Goro el Rastreador",
       "Habitante secreto del pantano. Fuente de informaci\u00f3n y gu\u00eda opcional",
-      "45 a\u00f1os, complexi\u00f3n robusta, piel con patrones de cicatrices rituales. No habla \u2014 usa se\u00f1as y dibujos en pergamino. Lleva siempre un fardo con todo lo necesario para sobrevivir",
-      "Observador y calmado. Comunica mucho con gestos precisos. No desconf\u00eda del grupo pero los eval\u00faa silenciosamente antes de ayudar",
+      "45 a\u00f1os, complexi\u00f3n robusta, piel con patrones de cicatrices rituales. Habla poco y bajo \u2014 el pantano le ense\u00f1\u00f3 que gastar palabras de m\u00e1s no sirve de nada. Lleva siempre un fardo con todo lo necesario para sobrevivir",
+      "Observador y calmado. Elige bien lo poco que dice. No desconf\u00eda del grupo pero los eval\u00faa en silencio antes de ayudar",
       "Proteger el pantano de intrusos peligrosos y documentar los cambios desde que lleg\u00f3 la Niebla Gris. Tiene 3 semanas de registros detallados en pergaminos",
       "Si el grupo demuestra que no est\u00e1 ah\u00ed para explotar el lugar, Goro los gu\u00eda hasta el \u00c1rbol de los Cuellos sin riesgos (evita todos los peligros del camino). Sus pergaminos contienen la \u00faltima vez que vio a Mnem\u00f3s: 'Un anciano que llor\u00f3 frente al \u00e1rbol durante una hora y luego tom\u00f3 algo del agua'",
-      "[Se\u00f1ala el coraz\u00f3n del pantano con una expresi\u00f3n de respeto mezclado con pena]"
+      "\"Ah\u00ed. En el centro. No hace falta que les cuente m\u00e1s \u2014 ya van a entender solos.\""
     ),
 
     ...npcBlock(
@@ -144,14 +150,14 @@ function cap5() {
       ["Cuerda","Inscripción","Cómo se descubre el destino"],
       ["Cinta roja deshilachada","'Aldric Tresfondo — se ahogó buscando a su perro, año 1481'","En la cabaña hundida de MS-2C hay una vieja lápida de madera apoyada contra la pared exterior con el mismo apellido tallado (automático al explorar la cabaña); o los propios Tresfondo la reconocen al instante una vez rescatados"],
       ["Cuerda de cuero trenzado","'Yenna la Curandera — su último paciente fue el pantano mismo'","Marga reconoce el nombre de inmediato (fue su maestra); o el grupo encuentra su choza abandonada en el pantano (sección 5.3) con un retrato tallado que confirma quién era, sin necesidad de hablar con Marga primero"],
-      ["Hilo azul casi podrido","'Para el niño que no llegó a tener nombre'","En la cabaña de los Hask (una de las 4 familias de Grauwater), Percepción o Investigación CD 12 nota una cuna tallada a mano, vacía, guardada en un rincón — nadie en la familia lo va a mencionar en voz alta a menos que se les pregunte directamente"],
+      ["Hilo azul casi podrido","'Para el niño que no llegó a tener nombre'","En la cabaña de los Hask (ver 5.3): la cuna vacía que se nota ahí conecta directo con este hilo. Tobar y Ressa lo confirman si se les muestra, aunque no hablen mucho del tema"],
     ], 2400, 3600, 3360),
     pEmpty(80),
     p("Entregar cada cuerda a su destino correcto (no hace falta encontrar las 3 para que cuente algo) suma confianza de Marga: con las 3 devueltas, la CD de todos los encuentros sociales en el pantano baja en 2 durante el resto de la sesión; con 1 o 2, la reducción es de 1. Devolverlas no es solo información — es un gesto físico, y Grauwater lo nota."),
     pEmpty(80),
 
     h3("MS-2B: Los Pergaminos de Goro"),
-    p("Esto pasa después de ganarse la confianza de Goro (ver NPC), no antes — y no ocurre con él mirando por encima del hombro. Una vez que confía en el grupo, saca el fardo de pergaminos de un compartimento escondido en su cabaña y se los entrega con un gesto simple: los estira con las dos manos, como diciendo 'tómenlos'. Después se sienta aparte a tallar algo en silencio, o sale a inspeccionar el perímetro — les deja el material y el tiempo para revisarlo solos. Volver a buscarlo cuando terminan es lo natural, no algo que haya que forzar."),
+    p("Esto pasa después de ganarse la confianza de Goro (ver NPC), no antes — y no ocurre con él mirando por encima del hombro. Una vez que confía en el grupo, saca el fardo de pergaminos de un compartimento escondido en su cabaña y se los entrega diciendo, sin vueltas: 'Tomen. Ya los leí bastante.' Después se sienta aparte a tallar algo en silencio, o sale a inspeccionar el perímetro — les deja el material y el tiempo para revisarlo solos. Volver a buscarlo cuando terminan es lo natural, no algo que haya que forzar."),
     pEmpty(80),
     p("Goro lleva 3 semanas registrando cambios en el pantano desde la llegada de la Niebla. Sus pergaminos son detallados y técnicos. Si el grupo los traduce con ayuda de Logos (Logos necesita 10 minutos — 'idioma no reconocido: pictográfico regional'), descubren que el Coleccionista visitó el pantano tres veces antes de extraer la escama. Las dos primeras visitas solo observó. La tercera llegó con algo que Goro describe como 'un frasco de cristal negro que absorbía la luz a su alrededor'."),
     pEmpty(80),
@@ -195,7 +201,7 @@ function cap5() {
     pEmpty(80),
 
     h3("Goro"),
-    p("Si el grupo se ganó su confianza durante la zona, Goro aparece una última vez antes de que se vayan — no para despedirse con ceremonia, sino para dejarles, en silencio, una copia a mano de sus mapas del pantano. Es su forma de decir que pueden volver. No se ofrece como aliado recurrente ni pide nada a cambio; sigue siendo del pantano, no del grupo. Si nunca conectaron con él más allá de lo mínimo, simplemente desaparece de vuelta hacia el interior del pantano sin despedirse — sigue ahí, pero no busca al grupo."),
+    p("Si el grupo se ganó su confianza durante la zona, Goro aparece una última vez antes de que se vayan — no para despedirse con ceremonia, sino para dejarles una copia a mano de sus mapas del pantano, con un simple 'Por si vuelven. El pantano no cambia tan rápido.' Es su forma de decir que pueden volver. No se ofrece como aliado recurrente ni pide nada a cambio; sigue siendo del pantano, no del grupo. Si nunca conectaron con él más allá de lo mínimo, simplemente desaparece de vuelta hacia el interior del pantano sin despedirse — sigue ahí, pero no busca al grupo."),
     pEmpty(80),
 
     h3("La Familia Tresfondo"),
